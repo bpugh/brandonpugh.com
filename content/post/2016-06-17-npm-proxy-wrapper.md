@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Use npm with a proxy that requires authentication
+slug: npm-proxy-wrapper
 date: 2016-06-17 00:12:00
 comments: true
 categories: null

@@ -4,12 +4,14 @@ baseurl = "http://bpughhugo.netlify.com/"
 description= "Brandon Pugh's experiences on professional software development, technology and productivity"
 Copyright = "All rights reserved - 2017"
 theme = "casper"
-canonifyurls = true
+enableRobotsTXT = true
+[permalinks]
+  post = "/blog/:year/:month/:slug/"
 
 
 [params]
   description = "Condensing fact from the vapor of nuance."
-  # cover = "images/cover.jpg"
+  cover = "images/banner.png"
   author= "Brandon Pugh"
   # authorlocation = "Paris, France"
   authorwebsite = "https://brandonpugh.com"
