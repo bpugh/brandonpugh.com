@@ -9,6 +9,26 @@ enableRobotsTXT = true
   post = "/blog/:year/:month/:slug/"
 
 
+[[menu.main]]
+  name = "My Blog"
+  weight = -120
+  identifier = "blog"
+  url = "/"
+[[menu.main]]
+  name = "About me"
+  weight = -110
+  identifier = "about"
+  url = "/about-me"
+
+[[menu.main]]
+  name = "Github"
+  pre = "<h3>Follow me</h3>"
+  url = "https://github.com/bpugh"
+  weight = 100
+  [[menu.main]]
+  name = "Twitter"
+  url = "https://twitter.com/brndnpugh"
+  weight = 101
 [params]
   description = "Condensing fact from the vapor of nuance."
   cover = "images/banner.png"
