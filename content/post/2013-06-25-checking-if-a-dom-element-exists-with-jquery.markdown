@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Checking if a dom element exists with JQuery [Byte sized tips]"
+slug: "checking-if-a-dom-element-exists-with-jquery"
 date: 2012-06-25 21:52:00
 comments: true
 categories: [Tutorial, jQuery]
