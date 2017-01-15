@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Brandon Pugh"
-baseurl = "https://brandonpugh.com"
+baseurl = "https://brandonpugh.com/"
 description= "Brandon Pugh's experiences on professional software development, technology and productivity"
 Copyright = "All rights reserved - 2017"
 theme = "casper"
