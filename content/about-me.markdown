@@ -1,6 +1,6 @@
 ---
 comments: false
-date: 2012-01-10 17:23:56
+date: 2012-01-10T17:23:56
 layout: page
 slug: about-me
 title: About Me
