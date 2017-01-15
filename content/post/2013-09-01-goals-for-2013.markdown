@@ -1,0 +1,54 @@
+---
+layout: post
+title: "Goals for 2013"
+date: 2013-01-04 09:33:00
+published: false
+comments: true
+categories:
+---
+
+#### Learn Git
+
+[Git](http://git.com) seems to be emerging as one of the most popular version
+control systems especially for open source projects so it would make sense to
+become more proficient especially given my next goal.
+
+#### Contribute to OSS
+
+I really want to give back and contribute to an open source project. With so
+many on Github hopefully learning Git will make this less intimidating.
+
+#### Learn a Javascript framework
+
+With javascript becoming more and more popular for creating a rich client side
+experience, learning and using a javascript framework is practically
+a necessity. I'll probably start looking at either [Knockout.js](knockoutjs.com)
+or [Backbone.js](backbonejs.com).
+
+#### Attend an out of town conference
+
+Hopefully one of the big ones like [Codemash](codemash.org) or [That
+Conference](thatconference.org).
+
+#### Become more active on Twitter
+
+Just seems like a great way to get involved in the development community.
+
+#### Migrate blog to Octopress
+
+I've been having annoying performance issues with my current Wordpress setup on
+on Godaddy and Octopress seems like a fun project to play with. Not to mention
+the hacker street cred...
+
+#### Automate my dev environment setup
+
+After having to setup a new machine recently I've decided my next would probably
+use some combination of [Chocolatey](chocolatey.org) and powershell to automate
+as much of the process as possible.
+
+#### Learn a new programming language
+
+This is probably constantly on every developer's list but I've really been
+wanting learn Ruby or Python. A functional language would also be really fun to
+learn like F# 
+
