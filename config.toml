@@ -1,7 +1,6 @@
 languageCode = "en-us"
-title = "Brandon Pugh"
+title = "Brandon Pugh's Blog"
 baseurl = "https://brandonpugh.com/"
-description= "Brandon Pugh's experiences on professional software development, technology and productivity"
 Copyright = "All rights reserved - 2017"
 theme = "casper"
 enableRobotsTXT = true
@@ -30,10 +29,10 @@ enableRobotsTXT = true
   url = "https://twitter.com/brndnpugh"
   weight = 101
 [params]
-  description = "Condensing fact from the vapor of nuance."
+  description= "Brandon Pugh's experiences on professional software development, technology and productivity"
+  subtitle= "Condensing fact from the vapor of nuance."
   cover = "images/banner.png"
   author= "Brandon Pugh"
-  # authorlocation = "Paris, France"
   authorwebsite = "https://brandonpugh.com"
 #   bio= "my bio"
 #   logo = "images/logo.png"
