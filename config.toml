@@ -1,6 +1,6 @@
 languageCode = "en-us"
 title = "Brandon Pugh's Blog"
-baseurl = "https://brandonpugh.com/"
+baseurl = "/"
 Copyright = "All rights reserved - 2017"
 theme = "casper"
 enableRobotsTXT = true
