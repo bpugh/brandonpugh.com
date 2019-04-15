@@ -25,7 +25,7 @@ $('.submitButton').live('click', function() {
     validateForm();
 });
 ```
-However if you're using jQuery 1.7 and up you now have access to the .on() method which is a very versatile method offering a number of improvements over .live(). [This post](http://bitovi.com/blog/2011/04/why-you-should-never-use-jquery-live.html) does a good job of explaining the main issues with using live, all of which you can avoid by using .on().
+However if you're using jQuery 1.7 and up you now have access to the .on() method which is a very versatile method offering a number of improvements over .live(). [This post](https://www.bitovi.com/blog/why-you-should-never-use-jquery-live) does a good job of explaining the main issues with using live, all of which you can avoid by using .on().
 
 So how do you go about using .on()? Well .on() basically provides a consistent interface for practically all your event binding needs. You can replace the first example with:
 ``` javascript
