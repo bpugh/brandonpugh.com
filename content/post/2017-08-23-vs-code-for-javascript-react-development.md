@@ -1,25 +1,28 @@
 ---
-author: "Brandon Pugh"
+author: 'Brandon Pugh'
 comments: true
-date: 2017-08-23T10:54:24+02:00
+date: 2019-06-29T10:54:24+02:00
 draft: false
-image: ""
-menu: ""
+image: ''
+menu: ''
 share: true
 tags:
-- javascript
-- environment
-title: VS Code for Javascript & React Development
+  - javascript
+  - environment
+title: My Always-Up-to-Date VS Code Setup for Web Development
 ---
+
 I've gone through the setup and daily use of a number of editors over the years including most current popular ones for front end development (i.e. sublime, atom, and vs code) and for me VS code is the best choice for front end development at the moment.
 
-The team has put a lot of effort into making it a great javascript experience out of the box and it shows (VS code itself is written in typescript and the team uses vs code to build vs code) and with some additional work you can have *the best* experience while writing javascript.
+The team has put a lot of effort into making it a great javascript experience out of the box and it shows (VS code itself is written in typescript and the team uses vs code to build vs code) and with some additional work you can have _the best_ experience while writing javascript.
 
 ## Extensions
 
 - [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig): See [http://editorconfig.org/](http://editorconfig.org/) if you don't already have a `.editorconfig` file in your project
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode): format javascript using the excellent new [Prettier](https://github.com/jlongster/prettier) project by [James Long](http://jlongster.com/)
 - [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint): Integrates [ESLint](https://eslint.org/) JavaScript linter into VS Code
+- [Tslint](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vscode-typescript-tslint-plugin): Integrates [TSLint](https://palantir.github.io/tslint/) Typescript linter into VS Code
+- [IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode): AI assisted intellisense for Python, TypeScript/JavaScript and Java
 - [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest): Integration for the [Jest](https://facebook.github.io/jest/) testing framework
 - [Jest Snippets](https://marketplace.visualstudio.com/items?itemName=andys8.jest-snippets): Common code snippets for unit tests
 - [React Snippets](https://marketplace.visualstudio.com/items?itemName=xabikos.ReactSnippets): Common React code snippets, especially handy for proptypes
@@ -31,6 +34,16 @@ The team has put a lot of effort into making it a great javascript experience ou
 - [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag): Auto rename paired tag in HTML/XML and JSX
 - [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag): Auto add closing tags in HTML/XML and JSX
 - [Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens): Shows the latest version for each dependency in your `package.json`
+- [Markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint): Markdown linting and style checking for Visual Studio Code. Handy for editing Readme files
+- [Stylelint](https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint): Modern CSS/SCSS/Less linter
+- [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons): Very extensive set of icons for just about every file type imaginable
+- [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock): Subtly change the workspace color of your workspace. Ideal when you have multiple VS Code instances and you want to quickly identify which is which
+
+## Angular Specific
+
+- [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template): Rich editing support for Angular html templates
+- [Angular2 inline](https://marketplace.visualstudio.com/items?itemName=natewallace.angular2-inline): Syntax highlighting for Angular inline templates
+- [Angular snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2&wt.mc_id=angularessentials-github-jopapa): Angular v8 snippets
 
 ### Make use of VS Code's recommended extensions feature
 
