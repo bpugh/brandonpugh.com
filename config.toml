@@ -2,7 +2,7 @@ languageCode = "en-us"
 title = "Brandon Pugh's Blog"
 baseurl = "/"
 MetaDataFormat = "yaml"
-Copyright = "All rights reserved - 2017"
+Copyright = "All rights reserved - 2019"
 theme = "casper"
 enableRobotsTXT = true
 [permalinks]
