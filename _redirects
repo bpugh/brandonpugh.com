@@ -1,2 +1,3 @@
 # Redirect http to primary https domain
 http://brandonpugh.com/* https://www.brandonpugh.com/:splat 301!
+https://brandonpugh.com/* https://www.brandonpugh.com/:splat 301!
