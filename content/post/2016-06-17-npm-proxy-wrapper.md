@@ -7,7 +7,7 @@ comments: true
 categories: null
 published: true
 ---
-It's pretty easy to configure npm to connect through a proxy by setting the `proxy` and `https-proxy` config settings and you can even using `npm config set` will store them in your `.npmrc` file. Connecting through a corporate proxy that requires authentication, however, can be a little trickier.
+It's pretty easy to configure npm to connect through a proxy by setting the `proxy` and `https-proxy` config settings and you can even use `npm config set` which will store them in your `.npmrc` file. Connecting through a corporate proxy that requires authentication, however, can be a little trickier.
 
 To specify your credentials, you have to place them in the proxy url so your npm command would look something like this:
 

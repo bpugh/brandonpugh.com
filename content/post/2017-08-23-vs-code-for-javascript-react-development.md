@@ -83,4 +83,4 @@ extensions.json:
 - `"editor.fontFamily": "Fira Code"` [Fira Code font](https://github.com/tonsky/FiraCode)
 - `"editor.fontLigatures": true` - Requires a font that supports ligatures like Fira Code
 - `"workbench.editor.showTabs": false` - VS Code has excellent tab switching built and IMHO eliminates the need for displaying tabs across the top
-- `"window.menuBarVisibility": "toggle"` - I almost never the menu bar across the top so might as well hide it by default (only applies on Windows machines)
+- `"window.menuBarVisibility": "toggle"` - I almost never use the menu bar across the top so might as well hide it by default (only applies on Windows machines)
