@@ -2,7 +2,7 @@ languageCode = "en-us"
 title = "Brandon Pugh's Blog"
 baseurl = "/"
 MetaDataFormat = "yaml"
-Copyright = "All rights reserved - 2019"
+Copyright = ""
 theme = "casper"
 enableRobotsTXT = true
 [permalinks]
@@ -37,7 +37,7 @@ enableRobotsTXT = true
   authorwebsite = "https://www.brandonpugh.com"
 #   bio= "my bio"
 #   logo = "images/logo.png"
-  googleAnalyticsUserID = "UA-37923235-1"
+  googleAnalyticsUserID = ""
   # Optional RSS-Link, if not provided it defaults to the standard index.xml
   RSSLink = "https://feeds.feedburner.com/BrandonPughsBlog"
   githubName = "bpugh"
@@ -47,5 +47,6 @@ enableRobotsTXT = true
   # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
   hideHUGOSupport = false
   customFooterPartial = "myfooter.html"
+  customHeaderPartial = "myHeader.html"
   [params.social]
     twitter = "brndnpugh"
