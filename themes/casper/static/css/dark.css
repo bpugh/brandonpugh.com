@@ -1,0 +1,620 @@
+@media (prefers-color-scheme: dark) {
+  html {
+    background-color: #181a1b !important;
+  }
+  html,
+  body,
+  input,
+  textarea,
+  select,
+  button {
+    background-color: #181a1b;
+  }
+  html,
+  body,
+  input,
+  textarea,
+  select,
+  button {
+    border-color: #736b5e;
+    color: #e8e6e3;
+  }
+  a {
+    color: #3391ff;
+  }
+  table {
+    border-color: #545b5e;
+  }
+  ::placeholder {
+    color: #b2aba1;
+  }
+  input:-webkit-autofill,
+  textarea:-webkit-autofill,
+  select:-webkit-autofill {
+    background-color: #555b00 !important;
+    color: #e8e6e3 !important;
+  }
+  ::-webkit-scrollbar {
+    background-color: #202324;
+    color: #aba499;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: #454a4d;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #575e62;
+  }
+  ::-webkit-scrollbar-thumb:active {
+    background-color: #484e51;
+  }
+  ::-webkit-scrollbar-corner {
+    background-color: #181a1b;
+  }
+  ::selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+  }
+  ::-moz-selection {
+    background-color: #004daa !important;
+    color: #e8e6e3 !important;
+  } /* Invert Style */
+  .jfk-bubble.gtx-bubble, .captcheck_answer_label > input + img, span#closed_text > img[src^="https://www.gstatic.com/images/branding/googlelogo"], span[data-href^="https://www.hcaptcha.com/"] > #icon, #bit-notification-bar-iframe, ::-webkit-calendar-picker-indicator
+  {
+    filter: invert(100%) hue-rotate(180deg) contrast(90%) !important;
+  } /* Variables Style */
+  :root {
+    --darkreader-neutral-background: #131516;
+    --darkreader-neutral-text: #d8d4cf;
+    --darkreader-selection-background: #004daa;
+    --darkreader-selection-text: #e8e6e3;
+  } /* Modified CSS */
+  a {
+    background-image: initial;
+    background-color: transparent;
+  }
+  a:focus {
+    outline-color: initial;
+  }
+  a:active,
+  a:hover {
+    outline-color: initial;
+  }
+  abbr[title] {
+    border-bottom-color: initial;
+  }
+  mark {
+    background-image: initial;
+    background-color: rgb(204, 204, 0);
+    color: rgb(232, 230, 227);
+  }
+  img {
+    border-color: initial;
+  }
+  fieldset {
+    border-color: rgb(66, 71, 74);
+  }
+  legend {
+    border-color: initial;
+  }
+  [class^='icon-']::before,
+  [class*=' icon-']::before {
+    text-decoration-color: initial !important;
+  }
+  html {
+    -webkit-tap-highlight-color: rgba(232, 230, 227, 0);
+  }
+  body {
+    color: rgb(192, 186, 178);
+  }
+  ::selection {
+    background-image: initial;
+    background-color: rgb(36, 39, 40);
+  }
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: rgb(203, 198, 192);
+  }
+  a {
+    color: rgb(185, 179, 170);
+  }
+  a:hover {
+    color: rgb(221, 218, 214);
+  }
+  hr {
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-top-color: rgb(53, 57, 59);
+  }
+  blockquote {
+    border-left-color: rgb(116, 107, 95);
+  }
+  blockquote small {
+    color: rgb(200, 195, 188);
+  }
+  mark {
+    background-color: rgb(172, 120, 0);
+  }
+  code,
+  tt {
+    border-color: rgb(34, 63, 80);
+    background-image: initial;
+    background-color: rgb(19, 34, 39);
+  }
+  pre {
+    border-color: rgb(34, 63, 80);
+    background-image: initial;
+    background-color: rgb(19, 34, 39);
+  }
+  pre code,
+  pre tt {
+    background-image: initial;
+    background-color: transparent;
+    border-color: initial;
+  }
+  kbd {
+    border-color: rgb(62, 68, 70);
+    color: rgb(168, 160, 149);
+    text-shadow: rgb(24, 26, 27) 0px 1px 0px;
+    background-image: initial;
+    background-color: rgb(30, 33, 34);
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 1px 0px, rgb(24, 26, 27) 0px 1px 0px 0px inset;
+  }
+  table {
+    background-color: transparent;
+  }
+  table th,
+  table td {
+    border-top-color: rgb(53, 57, 59);
+  }
+  table th {
+    color: rgb(232, 230, 227);
+  }
+  table caption + thead tr:first-child th,
+  table caption + thead tr:first-child td,
+  table colgroup + thead tr:first-child th,
+  table colgroup + thead tr:first-child td,
+  table thead:first-child tr:first-child th,
+  table thead:first-child tr:first-child td {
+    border-top-color: initial;
+  }
+  table tbody + tbody {
+    border-top-color: rgb(53, 57, 59);
+  }
+  table table table {
+    background-color: rgb(24, 26, 27);
+  }
+  table tbody > tr:nth-child(2n + 1) > td,
+  table tbody > tr:nth-child(2n + 1) > th {
+    background-color: rgb(29, 32, 33);
+  }
+  table.plain tbody > tr:nth-child(2n + 1) > td,
+  table.plain tbody > tr:nth-child(2n + 1) > th {
+    background-image: initial;
+    background-color: transparent;
+  }
+  .site-wrapper {
+    background-image: initial;
+    background-color: rgb(24, 26, 27);
+  }
+  .main-header {
+    background-image: initial;
+    background-color: rgb(26, 28, 29);
+  }
+  .main-header a.bloglogo {
+    text-decoration-color: initial;
+  }
+  .main-nav a {
+    text-decoration-color: initial;
+  }
+  .nav {
+    background-image: initial;
+    background-color: rgb(13, 14, 14);
+    color: rgb(162, 154, 142);
+  }
+  .nav-title {
+    color: rgb(232, 230, 227);
+  }
+  .nav-close:focus {
+    outline-color: initial;
+  }
+  .nav-close::before,
+  .nav-close::after {
+    background-image: initial;
+    background-color: rgb(83, 90, 94);
+  }
+  .nav-close:hover::before,
+  .nav-close:hover::after {
+    background-image: initial;
+    background-color: rgb(24, 26, 27);
+  }
+  .nav ul {
+    list-style-image: initial;
+  }
+  .nav li::before {
+    color: rgb(187, 181, 172);
+  }
+  .nav li a {
+    text-decoration-color: initial;
+  }
+  .nav li a::after {
+    color: rgba(232, 230, 227, 0.2);
+  }
+  .nav .nav-current::before {
+    color: rgb(232, 230, 227);
+  }
+  .nav .nav-current a::after {
+    border-bottom-color: rgba(48, 52, 54, 0.5);
+  }
+  .nav a:link,
+  .nav a:visited {
+    color: rgb(187, 181, 172);
+  }
+  .nav li.nav-current a,
+  .nav a:hover,
+  .nav a:active,
+  .nav a:focus {
+    color: rgb(232, 230, 227);
+  }
+  .subscribe-button {
+    text-decoration-color: initial;
+    background-image: initial;
+    background-color: rgb(24, 26, 27);
+    color: rgb(221, 218, 214) !important;
+  }
+  .scroll-down {
+    text-decoration-color: initial;
+    color: rgba(232, 230, 227, 0.7);
+  }
+  .scroll-down:hover {
+    color: rgb(232, 230, 227);
+  }
+  .home-template .main-header::after {
+    background-image: radial-gradient(
+      at center center,
+      rgba(0, 0, 0, 0.15) 0%,
+      rgba(0, 0, 0, 0) 70%,
+      rgba(0, 0, 0, 0) 100%
+    );
+    background-color: initial;
+  }
+  .blog-logo {
+    background-image: none !important;
+    background-color: initial !important;
+    border-color: initial !important;
+  }
+  .menu-button {
+    border-color: rgb(64, 69, 72);
+    color: rgb(177, 171, 161);
+    background-image: initial;
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  .menu-button:focus {
+    outline-color: initial;
+  }
+  body.nav-opened .menu-button {
+    background-image: initial !important;
+    background-color: rgb(13, 14, 14) !important;
+    border-color: rgb(134, 125, 110) !important;
+    color: rgb(232, 230, 227) !important;
+  }
+  .main-nav.overlay {
+    border-color: initial;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0) 100%);
+    background-color: initial;
+  }
+  .no-cover .main-nav.overlay,
+  .no-cover .menu-button {
+    background-image: none;
+    background-color: initial;
+  }
+  .main-nav.overlay a {
+    color: rgb(232, 230, 227);
+  }
+  .main-nav.overlay .menu-button {
+    border-color: rgba(48, 52, 54, 0.6);
+  }
+  .main-nav.overlay a:hover {
+    color: rgb(211, 207, 201);
+    border-color: rgb(48, 52, 54);
+    background-image: initial;
+    background-color: rgb(24, 26, 27);
+  }
+  .menu-button:hover {
+    border-color: rgb(112, 104, 92);
+    color: rgb(178, 172, 162);
+  }
+  .page-title {
+    color: rgb(232, 230, 227);
+  }
+  .page-description {
+    color: rgba(232, 230, 227, 0.8);
+  }
+  .no-cover.main-header {
+    background-image: initial;
+    background-color: rgb(28, 31, 32);
+  }
+  .no-cover .page-title {
+    color: rgba(232, 230, 227, 0.8);
+  }
+  .no-cover .page-description {
+    color: rgba(232, 230, 227, 0.5);
+  }
+  .no-cover .main-nav.overlay .menu-button {
+    color: rgba(232, 230, 227, 0.4);
+    border-color: rgba(140, 130, 115, 0.3);
+  }
+  .post {
+    border-bottom-color: rgb(34, 61, 76);
+  }
+  .post::after {
+    border-color: rgb(40, 61, 73);
+    background-image: initial;
+    background-color: rgb(24, 26, 27);
+    box-shadow: rgb(24, 26, 27) 0px 0px 0px 5px;
+  }
+  .post-title a {
+    text-decoration-color: initial;
+  }
+  .read-more {
+    text-decoration-color: initial;
+  }
+  .post-meta {
+    color: rgb(177, 171, 161);
+  }
+  .post-meta a {
+    color: rgb(177, 171, 161);
+    text-decoration-color: initial;
+  }
+  .post-meta a:hover {
+    text-decoration-color: initial;
+  }
+  .post-date {
+    border-left-color: rgb(59, 63, 66);
+  }
+  .post-template .post-date {
+    border-color: initial;
+  }
+  .post-template .post {
+    border-bottom-color: initial;
+  }
+  .post-footer {
+    border-top-color: rgb(34, 61, 76);
+  }
+  .author-meta {
+    list-style-image: initial;
+    color: rgb(177, 171, 161);
+  }
+  .author-meta a {
+    color: rgb(177, 171, 161);
+  }
+  .author-meta a:hover {
+    color: rgb(221, 218, 214);
+  }
+  .post-footer h4 a {
+    color: rgb(203, 198, 192);
+    text-decoration-color: initial;
+  }
+  .post-footer h4 a:hover {
+    text-decoration-color: initial;
+  }
+  .post-footer .share a {
+    color: rgb(194, 189, 181);
+    text-decoration-color: initial;
+  }
+  .post-footer .share a:hover {
+    color: rgb(177, 171, 161);
+  }
+  .no-cover.post-head.main-header {
+    background-image: initial;
+    background-color: transparent;
+  }
+  .no-cover.author-head.main-header {
+    background-image: initial;
+    background-color: transparent;
+  }
+  .author-profile {
+    border-bottom-color: rgb(34, 61, 76);
+  }
+  .author-profile::after {
+    border-color: rgb(40, 61, 73);
+    background-image: initial;
+    background-color: rgb(24, 26, 27);
+    box-shadow: rgb(24, 26, 27) 0px 0px 0px 5px;
+  }
+  .author-image {
+    background-image: initial;
+    background-color: rgb(24, 26, 27);
+    box-shadow: rgb(34, 37, 39) 0px 0px 0px 1px;
+  }
+  .author-profile .author-image {
+    box-shadow: none;
+  }
+  .author-bio {
+    color: rgb(177, 171, 161);
+  }
+  .author-meta a {
+    text-decoration-color: initial;
+  }
+  .pagination {
+    color: rgb(177, 171, 161);
+  }
+  .pagination a {
+    color: rgb(177, 171, 161);
+  }
+  .older-posts,
+  .newer-posts {
+    border-color: rgb(64, 69, 72);
+    text-decoration-color: initial;
+  }
+  .older-posts:hover,
+  .newer-posts:hover {
+    color: rgb(160, 152, 140);
+    border-color: rgb(75, 82, 85);
+  }
+  .extra-pagination {
+    border-bottom-color: rgb(34, 61, 76);
+  }
+  .extra-pagination::after {
+    border-color: rgb(40, 61, 73);
+    background-image: initial;
+    background-color: rgb(24, 26, 27);
+    box-shadow: rgb(24, 26, 27) 0px 0px 0px 5px;
+  }
+  .site-footer {
+    color: rgb(194, 189, 181);
+  }
+  .site-footer a {
+    color: rgb(194, 189, 181);
+    text-decoration-color: initial;
+  }
+  .site-footer a:hover {
+    color: rgb(177, 171, 161);
+  }
+  @media only screen and (max-width: 500px) {
+    .menu-button {
+      border-color: transparent;
+      color: rgb(203, 198, 192);
+      background-image: initial;
+      background-color: transparent;
+    }
+    .menu-button:hover {
+      color: rgb(203, 198, 192);
+      border-color: transparent;
+      background-image: none;
+      background-color: initial;
+    }
+    body.nav-opened .menu-button {
+      background-image: none !important;
+      background-color: initial !important;
+      border-color: transparent !important;
+    }
+    .main-nav.overlay a:hover {
+      color: rgb(232, 230, 227);
+      border-color: transparent;
+      background-image: initial;
+      background-color: transparent;
+    }
+    .no-cover .main-nav.overlay {
+      background-image: none;
+      background-color: initial;
+    }
+    .no-cover .main-nav.overlay .menu-button {
+      border-color: initial;
+    }
+    .main-nav.overlay .menu-button {
+      border-color: transparent;
+    }
+    .post-footer .author {
+      border-bottom-color: rgb(34, 61, 76);
+    }
+  }
+  .read-next-story {
+    text-decoration-color: initial;
+    color: rgb(232, 230, 227);
+    background-image: initial;
+    background-color: rgb(26, 28, 29);
+  }
+  .read-next-story:hover::before {
+    background-image: initial;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .read-next-story:hover .post::before {
+    color: rgb(211, 207, 201);
+    background-image: initial;
+    background-color: rgb(24, 26, 27);
+  }
+  .read-next-story::before {
+    background-image: initial;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .read-next-story .post {
+    border-bottom-color: initial;
+  }
+  .read-next-story .post::before {
+    color: rgba(232, 230, 227, 0.8);
+    border-color: rgba(48, 52, 54, 0.5);
+  }
+  .read-next-story h2 {
+    color: rgb(232, 230, 227);
+  }
+  .read-next-story p {
+    color: rgba(232, 230, 227, 0.8);
+  }
+  .read-next-story.no-cover {
+    background-image: initial;
+    background-color: rgb(28, 31, 32);
+  }
+  .read-next-story.no-cover .post::before {
+    color: rgba(232, 230, 227, 0.5);
+    border-color: rgba(140, 130, 115, 0.2);
+  }
+  .read-next-story.no-cover h2 {
+    color: rgba(232, 230, 227, 0.8);
+  }
+  .read-next-story.no-cover p {
+    color: rgba(232, 230, 227, 0.5);
+  }
+  .read-next-story.no-cover + .read-next-story.no-cover {
+    border-left-color: rgba(124, 115, 101, 0.04);
+  }
+  @media only screen and (max-width: 900px) {
+    .read-next-story.no-cover + .read-next-story.no-cover {
+      border-top-color: rgba(124, 115, 101, 0.06);
+      border-left-color: initial;
+    }
+  }
+  nav.breadcrumb li a {
+    text-decoration-color: initial;
+  }
+  nav.navpage > ul {
+    background-image: -webkit-linear-gradient(top, rgb(33, 36, 37) 0%, rgb(62, 68, 70) 100%);
+    background-color: initial;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 90px;
+    list-style-image: initial;
+  }
+  nav.navpage li {
+    list-style-image: initial;
+  }
+  nav.navpage > ul > li > a {
+    text-decoration-color: initial;
+  }
+  nav.navpage ul ul li a {
+    text-decoration-color: initial;
+  }
+  nav.navpage ul ul li a:hover {
+    text-decoration-color: initial;
+  }
+  nav.navchildren {
+    background-image: -webkit-linear-gradient(top, rgb(33, 36, 37) 0%, rgb(62, 68, 70) 100%);
+    background-color: initial;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 90px;
+    list-style-image: initial;
+  }
+  nav.navchildren a {
+    text-decoration-color: initial;
+  }
+  nav.navchildren a:hover {
+    text-decoration-color: initial;
+  }
+  ::placeholder {
+    opacity: 0.5 !important;
+  }
+  a[href="https://coinmarketcap.com/"] > svg[width="94"][height="16"] > path
+  {
+    fill: var(--darkreader-neutral-text) !important;
+  }
+  #edge-translate-panel-body {
+    color: var(--darkreader-neutral-text) !important;
+  }
+  gr-main-header {
+    background-color: #0f3a48 !important;
+  }
+  embed[type='application/pdf'] {
+    filter: invert(100%) contrast(90%);
+  }
+}
