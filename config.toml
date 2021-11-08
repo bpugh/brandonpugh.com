@@ -19,6 +19,11 @@ enableRobotsTXT = true
   weight = -110
   identifier = "about"
   url = "/about-me"
+[[menu.main]]
+  name = "Stuff I like"
+  weight = -110
+  identifier = "stuff"
+  url = "/stuff-i-like"
 
 [[menu.main]]
   name = "Github"

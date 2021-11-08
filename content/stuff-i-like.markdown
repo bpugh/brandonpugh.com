@@ -15,7 +15,7 @@ I frequently get asked about the various things that I like so I wanted an easy 
 
 * [Apple Magic Keyboard](https://amzn.to/3oaLzf4) - Nice compact wireless keyboard with Apple's visual aesthetic and build quality.
 * [Logitech MX Master 3](https://amzn.to/3CWeS9J) - My current favorite desktop mouse.
-* [Slate Travel Router](https://amzn.to/3u9rrv1) - An awesome little travel with several security features and run open-wrt.
+* [Slate Travel Router](https://amzn.to/3u9rrv1) - An awesome little travel router with several security features and it runs open-wrt.
 * [Jabra Elite Active 75t](https://amzn.to/3zCkpjz) - My current wireless earbuds.
 
 ## Software

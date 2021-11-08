@@ -49,7 +49,7 @@
     {{ partial "pagination.html" $paginator }}
 	</div>
 
-	{{ range $index, $page := $paginator.Pages }}
+	{{ range $index, $page := where $paginator.Pages "Section" "post" }}
 	   {{ partial "li.html" . }}
 	{{ end }}
 
