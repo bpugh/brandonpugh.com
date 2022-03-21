@@ -7,6 +7,7 @@ menu: ''
 share: true
 tags:
   - tooling
+  - productivity
 title: An Assortment of Productivity Tips
 ---
 
