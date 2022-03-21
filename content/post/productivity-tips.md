@@ -11,7 +11,7 @@ tags:
 title: An Assortment of Productivity Tips
 ---
 
-This is mostly a collection of my notes on productivity and little tips for saving time or being more efficient while working on a computer.
+This is mostly a collection of my notes on productivity and little tips for saving time or being more efficient while doing knowledge work.
 
 ## Organization vs Execution
 
@@ -59,7 +59,9 @@ In my post on [how I get things done as a tech lead](https://www.brandonpugh.com
   - Creators get paid for your views
 - [Inoreader](https://www.inoreader.com/) - my favorite rss reader
 
-## Use hotkeys
+## Avoid the mouse and save your keystrokes
+
+You only have so much time and [keystrokes left](https://keysleft.com/) so in general, [automate as much as possible.](https://www.asianefficiency.com/productivity/5-ways-to-automate-technology-and-save-time/)
 
 - Pressing `Ctrl + Backspace` will delete the last word you typed
 - speed up informational videos (`< >` youtube keyboard shortcuts)
@@ -96,6 +98,8 @@ In his [post on autohotkey](https://www.hillelwayne.com/post/ahk/), Hillel Wayne
 - `win+backtick` - terminal
 - `win+s` - slack
 
+On windows you can achieve something similar by pinning apps to the taskbar and using the [built-in taskbar hotkeys.](https://www.howtogeek.com/276982/the-most-useful-keyboard-shortcuts-for-the-windows-taskbar/). I think you can do this with [Alfred](https://www.alfredapp.com/) on mac.
+
 ### Text expansion
 
 I've only been using a text expansion app the last couple of years but I regret not starting sooner because it's a game changer!
@@ -107,6 +111,11 @@ There are tons of potential ways it can save you time but here are some of the o
 - text utilities like typing out the current date
 
 There are lots free/paid text expanders but I like [Espanso](https://espanso.org/) because it's cross-platform and open source and you configure it entirely with a yaml config file. I could probably write an entire post on my espanso setup.
+But there are lots of alternatives:
+
+* macOS has [built-in basic text replacement](https://support.apple.com/guide/mac-help/replace-text-punctuation-documents-mac-mh35735/mac) functionality
+* [TextExpander](https://textexpander.com/) is by far the most popular solution
+* [PhraseExpress](https://www.phraseexpress.com/) is free for personal use
 
 You can also use a key remapper like autohotkey for text expansion with a bit more manual effort.
 
