@@ -22,7 +22,7 @@ None of these ideas are really original or groundbreaking. This is more of a col
 
 Capture everything! The less you try to hold in your head the more you free up your brain to be creative and focus solely on the task at hand. This especially applies to action items. As a lead you're much more likely to be given random tasks at random times... while walking out of a meeting, in a comment on a JIRA ticket you need to follow up on, or during a quick call with a product owner.
 
-To be able to handle this effectively you need a task management system that let's you quickly jot things at any time. There are approximately a million todo/tasks/list/note app available so you should be able to find one that works for you but I would recommend one that allows quick entry from both desktop and mobile. I've personally been using [Remember the Milk](https://www.rememberthemilk.com) for well over a decade.
+To be able to handle this effectively you need a task management system that let's you quickly jot things at any time. There are approximately a million todo/tasks/list/note app available so you should be able to find one that works for you but I would recommend one that allows quick entry from both desktop and mobile. I've personally been using [Remember the Milk](https://www.rememberthemilk.com) since 2007.
 
 If you're able to build this habit then everyone you work with will start to build a trust in you that tasks they delegate won't fall through the cracks if they don't remember to follow up with you.
 
