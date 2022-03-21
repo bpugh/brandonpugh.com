@@ -13,7 +13,7 @@ tags:
 
 I'm currently working on a project I've inherited that uses a Postgres sql backend and I was looking for an easy way to make writing our data access layer less time consuming and painful. My first thought was to use a micro-ORM like [Massive](https://github.com/robconery/massive) but while I've heard some really great things about Massive, I felt it might be a tough sell to my team members who aren't too comfortable with Expandos and its dynamic nature (I know, but change in baby steps I suppose). Then I came across [PetaPoco](http://www.toptensoftware.com/petapoco/) and it seemed to fit the bill. Its basically a mico-ORM like Massive with built in support for Postgres except that it also works with POCOs (Plain old CLR Objects) and was pretty easy to get up and running with.
 
-First if you're not already working with Postgres you'll need to install a [provider like Npgsql](http://npgsql.projects.postgresql.org/). You can get the assemblies from their site or use Nuget with the command "Install-Package Npgsql". If you were already using Postgres like I was you'll have to add a bit more to the web.config/app.config in order to use PetaPoco.
+First if you're not already working with Postgres you'll need to install a [provider like Npgsql](https://www.npgsql.org/). You can get the assemblies from their site or use Nuget with the command "Install-Package Npgsql". If you were already using Postgres like I was you'll have to add a bit more to the web.config/app.config in order to use PetaPoco.
 
 ``` xml
 <system.data>
