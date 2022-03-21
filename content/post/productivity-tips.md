@@ -128,7 +128,7 @@ You can also use a key remapper like autohotkey for text expansion with a bit mo
 
 - log files with `.log` extension will have nice syntax highlighting when opened in vscode
 - vscode terminal will open file paths in editor
-- [learn hot to create a file with a . dot prefix in Windows Explorer](https://www.hanselman.com/blog/how-to-create-a-file-with-a-dot-prefix-in-windows-explorer)
+- [learn how to create a file with a . dot prefix in Windows Explorer](https://www.hanselman.com/blog/how-to-create-a-file-with-a-dot-prefix-in-windows-explorer)
 - make use of shell/git and aliases
 - powershell tools
   - [posh-git](https://github.com/dahlbyk/posh-git) - nice git integration
