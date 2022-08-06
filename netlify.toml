@@ -2,6 +2,6 @@
   HUGO_VERSION = "0.88"
 
 [[redirects]]
-  from = "/blazor-talk"
-  to = "https://poetic-valkyrie-8e81b8.netlify.app"
+  from = "/blazor-talk/*"
+  to = "https://poetic-valkyrie-8e81b8.netlify.app/:splat"
   status = 200
