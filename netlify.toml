@@ -3,10 +3,13 @@
 
 [[redirects]]
   from = "/blazor-talk/*"
-  to = "https://poetic-valkyrie-8e81b8.netlify.app/:splat"
+  to = "https://blazor-talk.netlify.app/:splat"
   status = 200
 [[redirects]]  
   from = "/better-way/*"
   to = "https://better-way.netlify.app/:splat"
   status = 200
-  
+[[redirects]]
+  from = "/tdd-talk/*"
+  to = "https://tdd-talk.netlify.app/:splat"
+  status = 200  
