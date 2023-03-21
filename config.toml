@@ -6,7 +6,7 @@ Copyright = ""
 theme = "casper"
 enableRobotsTXT = true
 [permalinks]
-  post = "/blog/:year/:month/:slug/"
+  post = "/blog/:slug/"
 
 
 [[menu.main]]

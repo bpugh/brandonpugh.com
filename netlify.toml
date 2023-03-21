@@ -2,6 +2,10 @@
   HUGO_VERSION = "0.88"
 
 [[redirects]]
+  from = "/blog/:year/:month/:slug"
+  to = "/blog/:slug"
+  status = 301
+[[redirects]]
   from = "/blazor-talk/*"
   to = "https://blazor-talk.netlify.app/:splat"
   status = 200
