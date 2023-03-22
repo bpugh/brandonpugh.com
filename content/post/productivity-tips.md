@@ -20,7 +20,7 @@ To me most productivity advice either falls under "organization" or "execution".
 ### Attention and Focus
 
 I've noticed that a lot of the advice on the execution side is really boils down to managing your attention and focus.
-And what's facinating is that a lot of the most popular advice and techniques just deal with focus and different levels of abstraction.
+And what's fascinating is that a lot of the most popular advice and techniques just deal with focus and different levels of abstraction.
 
 - Mindfullness Meditation
 - Pomodoro Technique

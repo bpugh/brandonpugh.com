@@ -12,7 +12,7 @@ title: Use Netlify for a Poor Man's Self-Hosted Url Shortener
 
 I recently migrated my blog from Github pages to [Netlify](https://www.netlify.com) and so far it's been an awesome experience! Netlify gives you so much for free it almost feels like stealing! If you're hosting some static content on github pages or S3 or somewhere, I highly recommend you check them out especially if you have a [static gen](https://www.staticgen.com/) build process.
 
-One of the cool features Netfify gives you is configuring `301` redirects using a simple `_redirects` file in the root of your site. For example:
+One of the cool features Netlify gives you is configuring `301` redirects using a simple `_redirects` file in the root of your site. For example:
 
 ```
 /home              /
