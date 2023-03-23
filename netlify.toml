@@ -9,6 +9,10 @@
   from = "/blazor-talk/*"
   to = "https://blazor-talk.netlify.app/:splat"
   status = 200
+[[redirects]]
+  from = "/blazor-talk"
+  to = "/blazor-talk/"
+  status = 200
 [[redirects]]  
   from = "/better-way/*"
   to = "https://better-way.netlify.app/:splat"
