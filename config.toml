@@ -24,6 +24,11 @@ enableRobotsTXT = true
   weight = -110
   identifier = "stuff"
   url = "/stuff-i-like"
+[[menu.main]]
+  name = "A better way"
+  weight = -110
+  identifier = "better"
+  url = "/better-way/"
 
 [[menu.main]]
   name = "Github"
