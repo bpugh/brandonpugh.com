@@ -1,4 +1,4 @@
-baseURL: "https://www.branodnpugh.com/"
+baseURL: ""
 title: Brandon Pugh's Blog
 paginate: 5
 theme: PaperMod
@@ -11,6 +11,8 @@ buildExpired: false
 minify:
   disableXML: true
   minifyOutput: true
+permalinks:
+  post: "/blog/:slug/"
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -29,7 +31,7 @@ params:
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
-  ShowWordCount: true
+  ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
@@ -96,7 +98,7 @@ params:
     hiddenInSingle: true # hide on single page
 
   editPost:
-    URL: "https://github.com/<path_to_repo>/content"
+    URL: "https://github.com/bpugh/brandonpugh.com/blob/main/content"
     Text: "Suggest Changes" # edit text
     appendFilePath: true # to append file path to Edit link
 
