@@ -41,6 +41,7 @@ params:
   hideSummary: false
   showtoc: false
   tocopen: false
+  displayFullLangName: true
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -128,3 +129,15 @@ markup:
     # guessSyntax: true
     # lineNos: true
     # style: monokai
+
+languages:
+  en:
+    title: My blog
+    weight: 1
+  es:
+    params:
+      description: "Brandon Pugh's experiences on professional software development, technology and productivity"
+    languageName: ":es:"
+    languageAltTitle: Español
+    title: Mi blog
+    weight: 1
