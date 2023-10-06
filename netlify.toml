@@ -20,4 +20,8 @@
 [[redirects]]
   from = "/tdd-talk/*"
   to = "https://tdd-talk.netlify.app/:splat"
-  status = 200  
+  status = 200
+[[redirects]]
+  from = "/git-talk/*"
+  to = "https://git-talk.netlify.app/:splat"
+  status = 200
