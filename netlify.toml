@@ -1,5 +1,5 @@
 [context.deploy-preview.environment]
-  HUGO_VERSION = "0.88"
+  HUGO_VERSION = "0.88.0"
 
 [[redirects]]
   from = "/blog/:year/:month/:slug"
