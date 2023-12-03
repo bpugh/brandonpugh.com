@@ -9,14 +9,12 @@ description: Various things I've come across that I enjoy or make my life easier
 
 I frequently get asked about the various things that I like so I wanted an easy page to point people to.
 
-*Full disclosure, some of these are Amazon referral links.*
-
 ## Tech
 
-* [Apple Magic Keyboard](https://amzn.to/3oaLzf4) - Nice compact wireless keyboard with Apple's visual aesthetic and build quality.
-* [Logitech MX Master 3](https://amzn.to/3CWeS9J) - My current favorite desktop mouse.
-* [Slate Travel Router](https://amzn.to/3u9rrv1) - An awesome little travel router with several security features and it runs open-wrt.
-* [Jabra Elite Active 75t](https://amzn.to/3zCkpjz) - My current wireless earbuds.
+* [Mistel BAROCCO MD770](https://www.amazon.com/dp/B082FWZVYG) split mechanical keyboard.
+* [Logitech MX Master 3](https://www.amazon.com/dp/B07S395RWD) - My current favorite desktop mouse.
+* [Slate Travel Router](https://www.amazon.com/dp/B07GBXMBQF) - An awesome little travel router with several security features and it runs open-wrt.
+* [Jabra Elite 5](https://www.amazon.com/dp/B0B7ZNCXKZ) - My current wireless earbuds.
 
 ## Software
 
@@ -26,6 +24,7 @@ I frequently get asked about the various things that I like so I wanted an easy 
 
 ### Non-fiction
 
-* [Getting Things Done](https://amzn.to/2XM3DBn) - A productivity classic.
-
-
+* [Working Effectively with Legacy Code](https://www.amazon.com/dp/0131177052)
+* [Test Driven Development: By Example](https://www.amazon.com/dp/0321146530)
+* [Getting Things Done](https://www.amazon.com/dp/B00KWG9M2E) - A productivity classic.
+* [Atomic Habits](https://www.amazon.com/dp/B07D23CFGR) - Actually really helped me develop some habits I still have today.
