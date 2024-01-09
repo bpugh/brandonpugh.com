@@ -2,6 +2,7 @@
 author: 'Brandon Pugh'
 comments: true
 date: 2023-11-26
+lastmod: 2024-01-03
 image: ''
 menu: ''
 share: true
@@ -18,7 +19,7 @@ It's a fun exercise and I totally get the arguments for "just" using default app
 
 - 📨 Mail Client: Gmail
 - 📮 Mail Server: Google
-- 📝 Notes: For personal/family stuff [Evernote](https://evernote.com) despite looking for alternatives; for technical notes: markdown with [VS Code](https://code.visualstudio.com/)
+- 📝 Notes: For personal/family stuff [Evernote](https://evernote.com) despite looking for alternatives; for technical notes: markdown with [VS Code](https://code.visualstudio.com/) and [Foam](https://foambubble.github.io/foam/) family of extensions.
 - ✅ To-Do: [Remember the Milk](https://www.rememberthemilk.com/) - I've been using it since 2008 and I still like it better than all the others I've tried.
 - 📷 Photo Shooting: Pixel Phone camera
 - 🎨 Photo Editing: Google Photos
@@ -40,5 +41,5 @@ It's a fun exercise and I totally get the arguments for "just" using default app
 - 🎵 Music: Youtube Music
 - 🎤 Podcasts: [Pocket Casts](https://pocketcasts.com/)
 - 🔐 Password Management: [1Password](https://1password.com/)
-- 🧑‍💻 Code Editor: [VS Code](https://code.visualstudio.com/) and [Vim](https://www.vim.org/)
+- 🧑‍💻 Code Editor: [VS Code](https://code.visualstudio.com/) and [Neovim](https://neovim.io/)
 - ✈️ VPN: [Mullvad VPN](https://mullvad.net) and [Tailscale](https://tailscale.com/)
