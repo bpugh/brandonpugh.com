@@ -27,10 +27,10 @@ params:
   disableThemeToggle: false
 
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: true
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
@@ -78,12 +78,14 @@ params:
     Content: Welcome to my blog
 
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/brndnpugh"
+    - name: mastodon
+      url: "https://hachyderm.io/@bpugh"
     - name: stackoverflow
       url: "https://stackoverflow.com/users/1715138/brandon-pugh"
     - name: github
       url: "https://github.com/bpugh"
+    - name: twitter
+      url: "https://twitter.com/brndnpugh"
 
   cover:
     hidden: true # hide everywhere but not in structured data
@@ -137,7 +139,7 @@ languages:
   es:
     params:
       description: "Brandon Pugh's experiences on professional software development, technology and productivity"
+      languageAltTitle: Español
     languageName: ":es:"
-    languageAltTitle: Español
     title: Mi blog
     weight: 1
