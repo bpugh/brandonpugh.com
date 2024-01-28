@@ -75,7 +75,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
+    Content: My name is Brandon, welcome to my blog
 
   socialIcons:
     - name: mastodon
@@ -136,12 +136,14 @@ markup:
 
 languages:
   en:
-    title: My blog
     weight: 1
   es:
     params:
       description: "Brandon Pugh's experiences on professional software development, technology and productivity"
       languageAltTitle: Español
+      homeInfoParams:
+        Title: "Hola \U0001F44B"
+        Content: Mi nombre es Brandon, bienvenidos a mi blog
     languageName: ":es:"
-    title: Mi blog
+    title: El blog de Brandon Pugh
     weight: 1
