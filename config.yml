@@ -19,9 +19,9 @@ params:
   title: Brandon Pugh's Blog
   description: "Brandon Pugh's experiences on professional software development, technology and productivity"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  author: Brandon Pugh
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["/images/android-chrome-192x192.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -50,7 +50,7 @@ params:
     favicon16x16: "/images/favicon-16x16.png"
     favicon32x32: "/images/favicon-32x32.png"
     apple_touch_icon: "/images/apple-touch-icon.png"
-    safari_pinned_tab: "<link / abs url>"
+    # safari_pinned_tab: "<link / abs url>"
 
   label:
     text: "Home"
