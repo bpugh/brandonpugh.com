@@ -4,7 +4,6 @@ comments: true
 date: 2022-12-19T10:54:24+02:00
 draft: false
 image: ''
-menu: 'main'
 share: true
 slug: blazor-best-practices
 tags:
