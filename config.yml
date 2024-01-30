@@ -144,6 +144,8 @@ languages:
       homeInfoParams:
         Title: "Hola \U0001F44B"
         Content: Mi nombre es Brandon, bienvenidos a mi blog
+      editPost:
+        Text: "Sugerir cambios" # edit text
     languageName: ":es:"
     title: El blog de Brandon Pugh
     weight: 1
