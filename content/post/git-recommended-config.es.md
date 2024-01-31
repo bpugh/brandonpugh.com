@@ -17,11 +17,11 @@ Si alguna vez has trabajado en un proyecto conmigo, probablemente te haya recome
 * `git config --global pull.rebase true` - le dice a git que siempre haga pull con rebase en lugar de merge (equivalente a `pull --rebase`).
 * `git config --global fetch.prune true` - le dice a git que automáticamente ejecute `git remote prune` después de un `fetch`. Esto limpiará cualquier objeto local que ya no exista en el remoto, como ramas de seguimiento que han sido eliminadas del servidor remoto.
 * `git config --global rebase.autoStash true` - le dice a git que automáticamente haga stash cuando realices un pull y luego intente deshacerlo una vez que el rebase esté completo. Esto es casi siempre mi flujo de trabajo, así que es bueno que git lo haga por mí.
-* `git config --global rebase.autosquash true` - le dice a git que incluya automáticamente el parámetro `--autosquash` cuando hagas un `git rebase --interactive`. Deberías [leer más sobre autosquash][autosquash] de commits si no estás familiarizado con él. Lo uso todo el tiempo para corregir o reescribir commits anteriores.
+* `git config --global rebase.autosquash true` - le dice a git que incluya automáticamente el parámetro `--autosquash` cuando hagas un `git rebase --interactive`. Aquí puedes [leer más sobre autosquash][autosquash] de commits si no estás familiarizado con él. Lo uso todo el tiempo para corregir o reescribir commits anteriores.
 
-## Agregadas más recientemente
+## Agregadas recientemente
 
-Si no has actualizado git en un par de años, deberías hacerlo, ya que vale la pena solo por estas nuevas opciones de configuración.
+Si no has actualizado git en un par de años, recomiendo hacerlo, ya que vale la pena solo por estas nuevas opciones de configuración.
 
 * `git config --global push.useForceIfIncludes true` (2.30.0) - Esta configuración hace que `push --force-with-lease` sea aún más seguro. [Consulta la documentación][pushdocs] para más información.
 * `git config --global push.autoSetupRemote true` (2.37.0) - Git configurará automáticamente un seguimiento upstream cuando ejecutes `git push` desde una nueva rama.
