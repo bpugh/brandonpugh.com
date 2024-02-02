@@ -36,4 +36,4 @@ Puedes encontrar estas útiles dependiendo de tu flujo de trabajo personal.
 
 [updateref]: https://andrewlock.net/working-with-stacked-branches-in-git-is-easier-with-update-refs/
 [autosquash]: https://thoughtbot.com/blog/autosquashing-git-commits
-[pushdocs]: (https://git-scm.com/docs/git-push#Documentation/git-push.txt---no-force-if-includes)
+[pushdocs]: https://git-scm.com/docs/git-push#Documentation/git-push.txt---no-force-if-includes
