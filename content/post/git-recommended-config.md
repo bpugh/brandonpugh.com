@@ -25,7 +25,7 @@ This not only saves you having to type the flag every time, but also ensures gui
 
 If you haven't updated git in a couple years then you should as it's worth it just for these new config options.
 
-* `git config --global push.useForceIfIncludes true` (2.30.0) - This setting makes `push --force-with-lease` even safer. [See the docs][pushdocs] for more info.
+* `git config --global push.useForceIfIncludes true` (2.30.0) - This setting makes `push --force-with-lease` even safer by ensuring the tip of the remote was actually pulled into your local branch at some point. [See the docs][pushdocs] for more info.
 * `git config --global push.autoSetupRemote true` (2.37.0) - Git will automatically setup an upsteam tracking when you run `git push` from a new branch.
 * `git config --global rebase.updateRefs true` (2.38.0) - the `--update-refs` option [makes working with stacked branches easier][updateref]
 
