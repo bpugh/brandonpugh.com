@@ -54,18 +54,25 @@ Otherwise, depending on how you're viewing the git log, it might not be obvious 
 
 ### List conflicts in the commit message
 
-If there were conflicts during the merge, then git will generate a list of them, but they're commented out by default.
-You can uncomment them and include them in the commit message:
+If there were conflicts during the merge, then git will list the files in the commit message, but they're commented out by default:
 
-```bash
+```md
+Merge branch 'main' into feature-branch
+
 # Conflicts:
 #	package.json
 #	package-lock.json
+#
+# It looks like you may be committing a merge.
+# If this is not correct, please run
+#	git update-ref -d MERGE_HEAD
+# and try again.
 ```
+You can remove the `#` from the lines to uncomment them and include them in the commit message.
 
 As a reviewer, I appreciate this because it's easy to make mistakes when resolving conflicts so if I see files listed then I can scrutinize them more closely.
 
-If you want this done automatically then you can use a [`prepare-commit-msg`](https://git-scm.com/docs/githooks#_prepare_commit_msg) hook to uncomment them:
+You can make it even more convenient by using a [`prepare-commit-msg`](https://git-scm.com/docs/githooks#_prepare_commit_msg) hook to uncomment them automatically:
 
 ```bash
 COMMIT_MSG_FILE=$1
@@ -87,7 +94,7 @@ An "evil" merge as defined by the [git docs](https://git-scm.com/docs/gitglossar
 
 > a merge that introduces changes that do not appear in any parent.
 
-or as Linus himself puts it:
+or as Linus himself [puts it](https://www.mail-archive.com/git@vger.kernel.org/msg73938.html):
 
 > an "evil merge" is something that makes changes that came from neither side and aren't actually resolving a conflict
 
