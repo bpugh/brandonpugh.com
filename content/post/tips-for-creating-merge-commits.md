@@ -9,7 +9,7 @@ tags:
 title: Tips for creating merge commits
 ---
 
-I've reviewed quite a few pull requests in recent years and I've noticed some less-than-ideal practices when it comes to creating merge commits so here are some things you can do to make life a little easier for someone reviewing your code.
+I've reviewed quite a few pull requests in recent years and I've noticed some less-than-ideal practices when it comes to creating merge commits so I thought I'd list some things you can do to make life a little easier for someone reviewing your code.
 
 ## Make the commit message as useful as possible
 
