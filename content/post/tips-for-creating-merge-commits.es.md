@@ -8,7 +8,7 @@ tags:
   - git
 title: Tips para crear commits de merge
 ---
-<!-- /* cSpell:disable */ -->
+<!-- cSpell:disable -->
 
 He revisado bastantes pull requests en los últimos años y he notado algunas prácticas menos que ideales cuando se trata de crear commits de merge, así que pensé en enumerar algunas cosas que puedes hacer para facilitarle la vida a alguien que revisa tu código.
 
@@ -44,7 +44,7 @@ Merge branch 'main' into feature-branch
 
 Si te das cuenta, incluye un comentario recomendando explicar por qué el merge fue necesario. Esto podría ser algo como "Fusionando flujo de autenticación actualizado" o "Fusionando cambios en `sharedService` para evitar conflictos". Esto también implica que deberías tener una razón para el merge, con lo cual estoy de acuerdo, porque de lo contrario estarías añadiendo ruido innecesario al registro de git.
 
-Como mínimo, haz claro que es un commit de merge. No pongas algo como `actualizar migraciones de la base de datos`; si tuviste que hacer eso como resultado del merge, menciónalo en el cuerpo del mensaje (aunque, como explicaré en breve, debería ir en un commit de seguimiento). De lo contrario, dependiendo de cómo estés viendo el registro de git, puede que no sea obvio que es un commit de merge.
+Al mínimo, haz claro que es un commit de merge. No pongas algo como `actualizar migraciones de la base de datos`; si tuviste que hacer eso como resultado del merge, menciónalo en el cuerpo del mensaje (aunque, como explicaré en breve, debería ir en un commit de seguimiento). De lo contrario, dependiendo de cómo estés viendo el registro de git, puede que no sea obvio que es un commit de merge.
 
 ### Lista los conflictos en el mensaje del commit
 
@@ -85,8 +85,9 @@ Un merge "malévolo" o "evil merge", según lo definido por la [documentación d
 
 o como lo dice el propio Linus [aquí](https://www.mail-archive.com/git@vger.kernel.org/msg73938.html):
 
-> un "merge malévolo" es algo que introduce cambios que no provienen de ningún lado y que en realidad no están resolviendo un conflicto.
+> un "merge malévolo" es algo que introduce cambios que no provienen de ningún lado y que no resolviendo un conflicto.
 
-Un commit de merge probablemente está incorporando una gran cantidad de cambios no relacionados, por lo que puede ser difícil notar si añades tus propios cambios. Prefiero hacer lo mínimo necesario para resolver cualquier conflicto textual.
+Un commit de merge probablemente está incorporando una gran cantidad de cambios no relacionados, por lo que puede ser difícil notar si añades tus propios cambios.
+Prefiero hacer lo mínimo necesario para resolver cualquier conflicto textual.
 
 Si hay problemas semánticos que necesitan ser resueltos (es decir, se renombró una vista de base de datos y mi código falla en tiempo de ejecución), entonces los resuelvo en un commit separado, lo que no solo facilita la revisión, sino que también hace que comandos como `git blame` sean más útiles.
