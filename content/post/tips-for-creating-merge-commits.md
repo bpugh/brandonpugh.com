@@ -29,7 +29,10 @@ Merged PR 123: <PR title>
 <PR Description>
 ```
 
-You can get a similar defult in GitHub by configuring the default merge commit settings in the repository settings.
+You can get a similar default in GitHub by configuring the default [merge commit settings](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/configuring-commit-merging-for-pull-requests) in the repository settings.
+If you're already writing a [valuable PR description](https://www.pullrequest.com/blog/writing-a-great-pull-request-description/), why immortalize it in the repo itself?
+
+Note: This is even more important for squash merges.
 
 ### For other merge commits
 
@@ -49,11 +52,12 @@ This could be something like "Merging in updated auth flow" or "Merging in chang
 This also implies that you should have a reason for the merge which I agree with because otherwise you're adding unnecessary noise to the git log.
 
 At the very least make it clear that it's a merge commit.
-Don't just put something like `update database migrations` if you did have to do that as a result of the merge then mention it in the body of the message (though as I'll explain shortly, it should go in a followup commit).
+Don't just put something like `update database migrations` — if you did have to do that as a result of the merge then mention it in the body of the message (though as I'll explain shortly, it should go in a followup commit).
 Otherwise, depending on how you're viewing the git log, it might not be obvious that it's a merge commit.
 
 ### List conflicts in the commit message
 
+While I personally prefer to rebase branches, one advantage of merging is that it's easier to see how any conflicts were handled.
 If there were conflicts during the merge, then git will list the files in the commit message, but they're commented out by default:
 
 ```md
@@ -68,6 +72,7 @@ Merge branch 'main' into feature-branch
 #	git update-ref -d MERGE_HEAD
 # and try again.
 ```
+
 You can remove the `#` from the lines to uncomment them and include them in the commit message.
 
 As a reviewer, I appreciate this because it's easy to make mistakes when resolving conflicts so if I see files listed then I can scrutinize them more closely.
@@ -101,4 +106,5 @@ or as Linus himself [puts it](https://www.mail-archive.com/git@vger.kernel.org/m
 A merge commit is likely pulling in a large amount of unrelated changes, so it can be hard to notice if you add in your own changes.
 I prefer to do the bare minimum to resolve any textual conflicts.
 
-If there are semantic issues that need to be resolved (i.e. a database view was renamed so my code fails at runtime), then I fix them in a separate commit which not only makes it easier to review but also makes commands like `git blame` more useful.
+If there are semantic issues that need to be resolved (i.e. a database view was renamed so my code fails at runtime), then I'll fix them in a separate commit.
+This not only makes it easier to review but also makes commands like `git blame` more useful.
