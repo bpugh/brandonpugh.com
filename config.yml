@@ -1,6 +1,6 @@
 baseURL: "https://www.brandonpugh.com/"
 title: Brandon Pugh's Blog
-paginate: 5
+paginate: 10
 theme: PaperMod
 
 enableRobotsTXT: true
