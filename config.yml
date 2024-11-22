@@ -42,6 +42,8 @@ params:
   showtoc: false
   tocopen: false
   displayFullLangName: true
+  mainSections:
+  - post
 
   assets:
     # disableHLJS: true # to disable highlight.js
