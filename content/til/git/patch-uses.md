@@ -7,7 +7,7 @@ tags: ["git"]
 
 Today I learned that you can use the `--patch` parameter with several git commands.
 
-The `--patch` parameter is probably most known for interactively staging changes from the cli, but I've never really used it because I find GUI clients are much more convenient for this.
+The `--patch` parameter is probably most known for interactively staging changes from the cli, but I've never really used it because I find [GUI clients](/til/visual-studio/line-staging/) are much more convenient for this.
 
 But apparently you can also use it with restore/checkout to grab specific changes from another branch.
 ```bash
