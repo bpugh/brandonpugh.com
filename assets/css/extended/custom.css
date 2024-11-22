@@ -1,0 +1,18 @@
+:root {
+  /* --accent: hsl(230deg, 100%, 69%); */
+  --accent: #0a429b;
+}
+
+.dark {
+  /* --primary: #91d7e3; */
+  --accent: #1d6dcf;
+}
+
+.post-content a {
+  color: var(--accent);
+}
+
+.first-entry {
+  margin: 0;
+  min-height: auto;
+}

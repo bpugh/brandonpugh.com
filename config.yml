@@ -1,6 +1,6 @@
 baseURL: "https://www.brandonpugh.com/"
 title: Brandon Pugh's Blog
-paginate: 5
+paginate: 10
 theme: PaperMod
 
 enableRobotsTXT: true
@@ -42,6 +42,8 @@ params:
   showtoc: false
   tocopen: false
   displayFullLangName: true
+  mainSections:
+  - post
 
   assets:
     # disableHLJS: true # to disable highlight.js
@@ -114,6 +116,10 @@ menu:
     - identifier: about
       name: about
       url: /about-me/
+      weight: 10
+    - identifier: til
+      name: TIL
+      url: /til/
       weight: 10
     - identifier: tags
       name: tags
