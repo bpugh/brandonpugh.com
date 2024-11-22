@@ -1,7 +1,8 @@
 ---
 date: 2024-06-19
+title: "bash vs sh in git hooks on windows"
+tags: ["git"]
 ---
 
-# bash vs sh in git hooks on windows
 
 Today I learned that `sh` is not the same thing as `bash`.

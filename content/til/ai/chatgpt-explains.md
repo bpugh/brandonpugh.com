@@ -1,8 +1,9 @@
 ---
 date: 2023-07-05
+title: "Use ChatGPT to explain bash scripts"
+tags: ["ai"]
 ---
 
-# Use ChatGPT to explain bash scripts
 
 Today I learned that chatGPT is pretty good at explaining cryptic bash scripts and commands.
 I was trying to understand exactly how a git `prepare-commit-msg` hook was working so I asked chatGPT to "explain the following git hook to me" and it did a pretty good job.

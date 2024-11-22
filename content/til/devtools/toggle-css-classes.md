@@ -1,8 +1,9 @@
 ---
 date: 2023-10-13
+title: "Toggle CSS classes in Devtools"
+tags: ["devtools"]
 ---
 
-# Toggle CSS classes in Devtools
 
 Today I learned that the little `.cls` button in the Chrome devtools is a handy way to toggle classes on an element:
 

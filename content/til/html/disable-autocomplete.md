@@ -1,8 +1,9 @@
 ---
 date: 2023-09-15
+title: "Disabling browser autofill in a form"
+tags: ["html"]
 ---
 
-# Disabling browser autofill in a form
 
 Today I learned that `autocomplete="off"` tends to be completely ignored by browsers these days because they seem to have the attitude that websites don't use it correctly.
 

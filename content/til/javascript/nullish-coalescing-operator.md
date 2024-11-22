@@ -1,8 +1,9 @@
 ---
 date: 2024-06-03
+title: "Nullish Coalescing Operator"
+tags: ["javascript"]
 ---
 
-# Nullish Coalescing Operator
 
 Today I learned that javascript gained a [nullish coalescing operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing) (`??`) in ECMAScript 2020.
 

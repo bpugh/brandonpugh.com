@@ -1,8 +1,9 @@
 ---
 date: 2023-11-02
+title: "Blob URLs"
+tags: ["html"]
 ---
 
-# Blob URLs
 
 Today I learned that in a web page, when you're working with Blob or File objects you can call `URL.createObjectURL()` to create a Blob URL that can be used as the source for anything that normally takes a URL like images or download links.
 

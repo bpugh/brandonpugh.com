@@ -1,8 +1,9 @@
 ---
 date: 2024-05-22
+title: "Penpot"
+tags: ["devtools"]
 ---
 
-# Penpot
 
 I just heard about a promising new design tool called [Penpot](https://penpot.app/) that positions itself as an open-source alternative to Figma.
 

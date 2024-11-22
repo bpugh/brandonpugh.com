@@ -1,8 +1,9 @@
 ---
 date: 2023-08-08
+title: "Comment styles in React"
+tags: ["react"]
 ---
 
-# Comment styles in React
 
 I recently learned that there are actually several ways to add [comments in JSX in React](https://dmitripavlutin.com/react-comments/).
 

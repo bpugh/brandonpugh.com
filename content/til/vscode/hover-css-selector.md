@@ -1,8 +1,9 @@
 ---
 date: 2023-07-21
+title: "VS code can show the required HTML structure for a CSS selector"
+tags: ["vscode"]
 ---
 
-# VS code can show the required HTML structure for a CSS selector
 
 If you hover over a CSS selector or property, [VS Code](https://code.visualstudio.com/docs/languages/css) will provide an HTML snippet that's matched by the CSS rule, and it will also show the specificity.
 

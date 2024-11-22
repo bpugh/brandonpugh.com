@@ -1,8 +1,9 @@
 ---
 date: 2024-07-17
+title: "Input modes"
+tags: ["html"]
 ---
 
-# Input modes
 
 Today I learned that iOS changed the way it handles the `inputmode="numeric"` attribute on HTML input elements.
 

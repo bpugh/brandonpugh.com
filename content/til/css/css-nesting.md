@@ -1,8 +1,9 @@
 ---
 date: 2023-09-14
+title: "CSS Nesting"
+tags: ["css"]
 ---
 
-# CSS Nesting
 
 Today I learned that as of last month all modern browsers support [css nesting](https://developer.chrome.com/articles/css-nesting/)!
 

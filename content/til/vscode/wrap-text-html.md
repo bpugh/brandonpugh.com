@@ -1,8 +1,9 @@
 ---
 date: 2023-07-27
+title: "You can easily wrap text with HTML tags"
+tags: ["vscode"]
 ---
 
-# You can easily wrap text with HTML tags
 
 Using the builtin [Emmet](https://code.visualstudio.com/docs/editor/emmet) functionality, you select any arbitrary text or HTML and wrap it with new markup by executing the command `Emmet: Wrap with Abbreviation` and typing an Emmet abbreviation.
 

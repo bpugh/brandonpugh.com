@@ -1,8 +1,9 @@
 ---
 date: 2024-07-12
+title: ":has selector"
+tags: ["css"]
 ---
 
-# :has selector
 
 Today I learned about the new `:has()` selector in CSS.
 

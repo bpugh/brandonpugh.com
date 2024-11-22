@@ -1,8 +1,9 @@
 ---
 date: 2023-08-11
+title: "Javascript Array.prototype.with()"
+tags: ["javascript"]
 ---
 
-# Javascript Array.prototype.with()
 
 I just discovered the `with()` method which takes an index value and a value to insert at that index and returns a new array with the value inserted at the index.
 

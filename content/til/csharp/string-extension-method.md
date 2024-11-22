@@ -1,8 +1,9 @@
 ---
 date: 2023-10-19
+title: "Calling an extension method on a null instance"
+tags: ["csharp"]
 ---
 
-# Calling an extension method on a null instance
 
 Today I learned that you can call an extension method on a null instance of the type.
 I had always assumed without thinking about it too hard, that the reason `string.IsNullOrEmpty` isn't defined as an extension method in the framework is because you would get `NullReferenceException`.

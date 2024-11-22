@@ -1,8 +1,9 @@
 ---
 date: 2024-06-12
+title: "Chrome devtools ignores form resubmission"
+tags: ["devtools"]
 ---
 
-# Chrome devtools ignores form resubmission
 
 Today I learned that if you have the chrome devtools open, then Chrome will suppress the confirm form resubmission dialog:
 

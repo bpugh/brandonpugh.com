@@ -1,8 +1,9 @@
 ---
 date: 2024-10-22
+title: "View transitions API"
+tags: ["css"]
 ---
 
-# View transitions API
 
 Today I learned about the new [view transitions API](https://developer.chrome.com/docs/web-platform/view-transitions) and I was pretty impressed with how much of the heavy lifting the browser will now do for you to animate between states.
 

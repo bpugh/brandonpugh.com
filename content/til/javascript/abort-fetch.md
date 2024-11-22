@@ -1,8 +1,9 @@
 ---
 date: 2024-07-24
+title: "Abort controller"
+tags: ["javascript"]
 ---
 
-# Abort controller
 
 Today I learned that you can cancel fetch requests using the [AbortController](https://developer.mozilla.org/en-US/docs/Web/API/AbortController).
 

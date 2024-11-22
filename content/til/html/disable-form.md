@@ -1,8 +1,9 @@
 ---
 date: 2024-01-24
+title: "Disable entire form"
+tags: ["html"]
 ---
 
-# Disable entire form
 
 Today I learned that you can disable an entire form by wrapping all the inputs in a `<fieldset disabled>`.
 

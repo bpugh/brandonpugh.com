@@ -1,8 +1,9 @@
 ---
 date: 2024-11-21
+title: "Selectively restoring changes from another branch or commit"
+tags: ["git"]
 ---
 
-# Selectively restoring changes from another branch or commit
 
 Today I learned that you can use the `--patch` parameter with several git commands.
 

@@ -1,8 +1,9 @@
 ---
 date: 2024-01-15
+title: "Dynamically darken or lighten a color in CSS"
+tags: ["css"]
 ---
 
-# Dynamically darken or lighten a color in CSS
 
 Today I learned that you can now easily darken or lighten a color natively in CSS with the new [color-mix](https://developer.chrome.com/docs/css-ui/css-color-mix) function.
 

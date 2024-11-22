@@ -1,8 +1,9 @@
 ---
 date: 2024-11-19
+title: "Personal git ignore per repository"
+tags: ["git"]
 ---
 
-# Personal git ignore per repository
 
 Today I learned that git has a `$GIT_DIR/info/exclude` file can contain additional patterns of files to ignore but isn't committed to the repository.
 

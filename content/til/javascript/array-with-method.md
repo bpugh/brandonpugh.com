@@ -1,8 +1,9 @@
 ---
 date: 2024-01-31
+title: "Javascript Array `with()` method"
+tags: ["javascript"]
 ---
 
-# Javascript Array `with()` method
 
 Today I learned that there's a new javascript array method that returns a _new_ array with the element at the given index replaced with the given value.
 

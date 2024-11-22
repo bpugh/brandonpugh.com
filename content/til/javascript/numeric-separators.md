@@ -1,8 +1,9 @@
 ---
 date: 2024-07-02
+title: "Numeric separators"
+tags: ["javascript"]
 ---
 
-# Numeric separators
 
 Today I learned about [numeric separators](https://v8.dev/features/numeric-separators) in javascript.
 They are a small bit of syntactic sugar to make large numeric literals easier to read by letting you insert underscores anywhere in the number.

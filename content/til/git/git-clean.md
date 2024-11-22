@@ -1,8 +1,9 @@
 ---
 date: 2024-01-23
+title: "Git clean interactive"
+tags: ["git"]
 ---
 
-# Git clean interactive
 
 I just discovered the interactive mode of `git clean`.
 

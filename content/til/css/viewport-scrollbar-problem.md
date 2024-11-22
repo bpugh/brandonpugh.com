@@ -1,8 +1,9 @@
 ---
 date: 2024-05-28
+title: "The viewport scroll bar problem"
+tags: ["css"]
 ---
 
-# The viewport scroll bar problem
 
 Today I learned that the viewport units in CSS don't account for the width of visible classic scrollbars like on Windows.
 

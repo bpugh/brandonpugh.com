@@ -1,8 +1,9 @@
 ---
 date: 2023-11-03
+title: "Use ChatGPT to help you write architectural decision records"
+tags: ["ai"]
 ---
 
-# Use ChatGPT to help you write architectural decision records
 
 I've been discovering recently that ChatGPT is actually pretty good at helping write [Architectural Decision Records (ADRs)](https://adr.github.io/).
 

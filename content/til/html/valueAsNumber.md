@@ -1,8 +1,9 @@
 ---
 date: 2023-10-02
+title: "Use the `valueAsNumber` property of html number inputs"
+tags: ["html"]
 ---
 
-# Use the `valueAsNumber` property of html number inputs
 
 Today I learned about the `valueAsNumber` property of html number inputs.
 

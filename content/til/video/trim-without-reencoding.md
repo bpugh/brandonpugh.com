@@ -1,8 +1,9 @@
 ---
 date: 2023-11-27
+title: "Trim videos without re-encoding"
+tags: ["video"]
 ---
 
-# Trim videos without re-encoding
 
 Today I learned that [FFmpeg](https://ffmpeg.org/) is the easiest (only?) way to trim/cut a video without re-encoding it.
 

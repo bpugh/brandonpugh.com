@@ -1,8 +1,9 @@
 ---
 date: 2023-11-10
+title: "Disabled buttons are bad for accessibility"
+tags: ["html"]
 ---
 
-# Disabled buttons are bad for accessibility
 
 Today I learned that disabled buttons are potentially bad for accessibility.
 

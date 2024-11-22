@@ -1,8 +1,9 @@
 ---
 date: 2023-11-15
+title: "Dependency Review"
+tags: ["github"]
 ---
 
-# Dependency Review
 
 Today I learned that Github has a cool [dependency review](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/reviewing-changes-in-pull-requests/reviewing-dependency-changes-in-a-pull-request) feature for pull requests.
 

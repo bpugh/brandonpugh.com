@@ -1,8 +1,9 @@
 ---
 date: 2023-09-22
+title: "Highlight text in markdown"
+tags: ["azure-devops"]
 ---
 
-# Highlight text in markdown
 
 I just learned that you can highlight text in PR descriptions and comments on Azure devops by using the `<mark>` element in your markdown:
 

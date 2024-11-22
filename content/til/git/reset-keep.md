@@ -1,8 +1,9 @@
 ---
 date: 2023-08-09
+title: "Git reset --keep"
+tags: ["git"]
 ---
 
-# Git reset --keep
 
 I just learned that `git reset` has a `--keep` parameter.
 

@@ -1,8 +1,9 @@
 ---
 date: 2024-06-27
+title: "Clear site data"
+tags: ["devtools"]
 ---
 
-# Clear site data
 
 protip: if you need to clear out some saved data (like cookies) for a particular site, Chrome dev tools has a handy "Clear site data" function.
 

@@ -1,8 +1,9 @@
 ---
 date: 2024-08-30
+title: "ASP.NET max upload file size"
+tags: ["aspnet"]
 ---
 
-# ASP.NET max upload file size
 
 Today I learned there are *two* configuration values that determine how large of a file can be uploaded.
 `maxRequestLength` is specified in **Kilobytes** and it's used by the ASP.NET framework.

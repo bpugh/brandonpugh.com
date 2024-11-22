@@ -1,8 +1,9 @@
 ---
 date: 2023-10-03
+title: "push.autoSetupRemote"
+tags: ["git"]
 ---
 
-# push.autoSetupRemote
 
 Today I learned about the git config setting `push.autoSetupRemote` that was added in version 2.37.0.
 

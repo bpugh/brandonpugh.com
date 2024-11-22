@@ -1,8 +1,9 @@
 ---
 date: 2024-02-15
+title: "Logical Properties"
+tags: ["css"]
 ---
 
-# Logical Properties
 
 I've recently been learning about the new [logical properties](https://web.dev/learn/css/logical-properties) in CSS.
 

@@ -1,8 +1,9 @@
 ---
 date: 2024-11-18
+title: "Raw string literals in C# 11"
+tags: ["csharp"]
 ---
 
-# Raw string literals in C# 11
 
 Today I learned about [raw string literals](https://learn.microsoft.com/en-us/dotnet/csharp/language-reference/tokens/raw-string) introduced in C# 11.
 

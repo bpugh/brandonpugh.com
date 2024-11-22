@@ -1,8 +1,9 @@
 ---
 date: 2023-12-14
+title: "Collection expressions"
+tags: ["csharp"]
 ---
 
-# Collection expressions
 
 Today I learned that C# 12 is getting some nice javascript-like syntax with collection expressions and the `..` (spread operator):
 

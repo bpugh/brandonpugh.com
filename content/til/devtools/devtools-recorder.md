@@ -1,8 +1,9 @@
 ---
 date: 2023-07-11
+title: "Use the Chrome devtools recorder to automate UI testing"
+tags: ["devtools"]
 ---
 
-# Use the Chrome devtools recorder to automate UI testing
 
 Chrome devtools has a pretty decent recorder feature that can record and playback your UI interactions.
 It's currently in preview but it's been working well for me so far.

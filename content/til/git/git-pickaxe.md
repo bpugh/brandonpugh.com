@@ -1,8 +1,9 @@
 ---
 date: 2023-08-07
+title: "Git pickaxe"
+tags: ["git"]
 ---
 
-# Git pickaxe
 
 You can search through git history not only by the text of a commit message but by the _contents of the diff_ of commits.
 This is commonly referred to as the [git pickaxe](http://www.philandstuff.com/2014/02/09/git-pickaxe.html) and you invoke it with the `-S` parameter to `git log` i.e. `git log -S 'public void SomeMethod` and you'll get every commit that touched that method signature or even one that _deleted_ it.

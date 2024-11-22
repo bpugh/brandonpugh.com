@@ -1,8 +1,9 @@
 ---
 date: 2023-07-12
+title: "Visual Studio 2022 can stage individual lines in git"
+tags: ["visual-studio"]
 ---
 
-# Visual Studio 2022 can stage individual lines in git
 
 Visual Studio added support for staging to commit individual chunks of changes (also known as interactive staging).
 This essentially lets you commit only parts of the changes you've made to a file or easily undo those changes.

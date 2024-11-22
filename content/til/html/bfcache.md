@@ -1,8 +1,9 @@
 ---
 date: 2024-05-21
+title: "BFCache"
+tags: ["html"]
 ---
 
-# BFCache
 
 Today I learned that the Backwards/forwards cache (BFCache) is a thing.
 This is the cache where the browser keeps a snapshot of a webpage so that it's able to display almost instantly when a user clicks the back or forward buttons.
