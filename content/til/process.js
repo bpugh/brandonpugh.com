@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Function to process a single markdown file
-function processMarkdownFile(filePath) {
+function processMarkdownFile(filePath, parentDirName) {
     const fileContent = fs.readFileSync(filePath, 'utf8');
     const lines = fileContent.split('\n');
 
@@ -26,13 +26,9 @@ function processMarkdownFile(filePath) {
 
     // Extract existing front matter
     let frontMatter = null;
-    let content = lines.slice(contentStartIndex).join('\n').trim();
-    console.log("🚀 ~ processMarkdownFile ~ content:", content)
-
+    let content = lines.slice(contentStartIndex).join('\n');
     if (fileContent.startsWith('---')) {
         const endIndex = lines.indexOf('---\r', 1);
-        console.log("🚀 ~ processMarkdownFile ~ lines:", lines)
-        console.log("🚀 ~ processMarkdownFile ~ endIndex:", endIndex)
         if (endIndex !== -1) {
             frontMatter = lines.slice(1, endIndex).join('\n');
             // content = lines.slice(endIndex + 1).join('\n').trim();
@@ -42,7 +38,6 @@ function processMarkdownFile(filePath) {
     // Create or update front matter
     const frontMatterObj = {};
     if (frontMatter) {
-        console.log("🚀 ~ processMarkdownFile ~ frontMatter:", frontMatter)
         frontMatter.split('\n').forEach((line) => {
             const [key, ...rest] = line.split(':');
             if (key && rest) {
@@ -53,7 +48,7 @@ function processMarkdownFile(filePath) {
 
     // Set or overwrite the title property
     frontMatterObj.title = `"${title}"`;
-    frontMatterObj.tags = `["css"]`;
+    frontMatterObj.tags = `["${parentDirName}"]`;
 
     // Reconstruct the front matter
     const updatedFrontMatter = `---\n${Object.entries(frontMatterObj)
@@ -79,6 +74,24 @@ function processMarkdownFiles(directory) {
     });
 }
 
+// Function to process all markdown files in a directory recursively
+function processMarkdownFilesRecursively(directory) {
+    const entries = fs.readdirSync(directory, { withFileTypes: true });
+
+    entries.forEach((entry) => {
+        const entryPath = path.join(directory, entry.name);
+        if (entry.isDirectory()) {
+            // Recursively process subdirectories
+            processMarkdownFilesRecursively(entryPath);
+        } else if (entry.isFile() && entry.name.endsWith('.md')) {
+            // Get the parent directory name
+            const parentDirName = path.basename(path.dirname(entryPath));
+            // Process markdown file
+            processMarkdownFile(entryPath, parentDirName);
+        }
+    });
+}
+
 // Run the script on a target directory
-const targetDirectory = './css'; // Change this to your target directory
-processMarkdownFiles(targetDirectory);
+const targetDirectory = './'; // Change this to your target directory
+processMarkdownFilesRecursively(targetDirectory);
