@@ -1,8 +1,9 @@
 ---
 date: 2023-11-01
+title: "`every()` returns true for an empty array"
+tags: ["javascript"]
 ---
 
-# `every()` returns true for an empty array
 
 Today I learned that the javascript array method `.every()` will always return true for an empty array.
 

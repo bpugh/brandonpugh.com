@@ -1,8 +1,9 @@
 ---
 date: 2024-09-13
+title: "HTTP files"
+tags: ["vscode"]
 ---
 
-# HTTP files
 
 Today I learned about `.http` files that you can use to make/test requests to any api endpoint from within most IDEs/editors.
 

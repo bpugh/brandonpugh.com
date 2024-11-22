@@ -1,8 +1,9 @@
 ---
 date: 2023-07-09
+title: "Run a bash script from Powershell"
+tags: ["powershell"]
 ---
 
-# Run a bash script from Powershell
 
 You can execute a bash script from Powershell on Windows by typing `bash` if you've enabled WSL.
 For example `bash ./new-til.sh`. Some caveats though:

@@ -1,8 +1,9 @@
 ---
 date: 2023-09-01
+title: "Null values in javascript interpolated strings"
+tags: ["javascript"]
 ---
 
-# Null values in javascript interpolated strings
 
 Today I learned about a key difference between how javascript handles null values in interpolated strings compared to a language like C#
 

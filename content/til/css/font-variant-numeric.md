@@ -1,8 +1,9 @@
 ---
 date: 2024-02-01
+title: "font-variant-numeric"
+tags: ["css"]
 ---
 
-# font-variant-numeric
 
 Today I learned about the `font-variant-numeric` CSS property that lets you control alternate glyphs for numbers.
 

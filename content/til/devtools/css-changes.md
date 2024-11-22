@@ -1,8 +1,9 @@
 ---
 date: 2023-08-15
+title: "Find all CSS changes in Chrome DevTools"
+tags: ["devtools"]
 ---
 
-# Find all CSS changes in Chrome DevTools
 
 Today I learned about the [Changes tab](https://developer.chrome.com/docs/devtools/changes/) in Chrome devtools.
 

@@ -1,8 +1,9 @@
 ---
 date: 2024-01-10
+title: "Copy Nice Extension"
+tags: ["visual-studio"]
 ---
 
-# Copy Nice Extension
 
 Today I learned about a handy little Visual Studio extension called [Copy Nice](https://marketplace.visualstudio.com/items?itemName=MadsKristensen.CopyNice) whose sole purpose is to address an annoyance I encounter frequently where the indentation is off when I copy and paste code snippets.
 

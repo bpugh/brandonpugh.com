@@ -1,8 +1,9 @@
 ---
 date: 2023-07-25
+title: "A hidden button in an HTML form can be submitted"
+tags: ["html"]
 ---
 
-# A hidden button in an HTML form can be submitted
 
 Even if a button is hidden with `display: none`, if it has a type of `submit` then it will still be activated if it's the first button in a form and a user hits enter in a form field.
 

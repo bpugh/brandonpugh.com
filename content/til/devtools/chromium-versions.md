@@ -1,8 +1,9 @@
 ---
 date: 2024-05-20
+title: "Locally test on old version of Chrome"
+tags: ["devtools"]
 ---
 
-# Locally test on old version of Chrome
 
 Today I learned that if you need to test in older versions of Chrome then you can [download prior snapshots of Chromium builds](https://commondatastorage.googleapis.com/chromium-browser-snapshots/index.html) as standalone executables.
 

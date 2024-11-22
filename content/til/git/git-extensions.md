@@ -1,8 +1,9 @@
 ---
 date: 2023-07-18
+title: "Git Extensions git client"
+tags: ["git"]
 ---
 
-# Git Extensions git client
 
 The [Git Extensions](https://gitextensions.github.io/) git client is actually pretty powerful and has a lot more features than I thought.
 I'd seen others using it before but never looked into it until I saw a StackOverflow answer suggesting to use Git Extensions to view the git reflog... a feature I've only ever seen in [Smartgit](https://www.syntevo.com/smartgit/).

@@ -1,8 +1,9 @@
 ---
 date: 2023-10-04
+title: "git-absorb"
+tags: ["git"]
 ---
 
-# git-absorb
 
 
 

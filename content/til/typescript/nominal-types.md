@@ -1,8 +1,9 @@
 ---
 date: 2023-08-01
+title: "Nominal types in Typescript"
+tags: ["typescript"]
 ---
 
-# Nominal types in Typescript
 
 Today I learned about a pattern in Typescript called "Branded Types" which lets you create "nominal" types.
 

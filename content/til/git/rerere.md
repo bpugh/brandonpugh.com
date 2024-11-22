@@ -1,8 +1,9 @@
 ---
 date: 2023-10-05
+title: "Git rerere"
+tags: ["git"]
 ---
 
-# Git rerere
 
 If you've ever had to abort a rebase or merge but didn't want to waste the work you already did resolving merge conflicts, then you should enable the git rerere option:
 

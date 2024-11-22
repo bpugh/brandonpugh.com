@@ -1,8 +1,9 @@
 ---
 date: 2023-11-29
+title: "Flow spacing and the lobotomized owl"
+tags: ["css"]
 ---
 
-# Flow spacing and the lobotomized owl
 
 This is another #til by proxy. A teammate asked about a CSS selector I used which has come to be referred to as the ["lobotomized owl"](https://alistapart.com/article/axiomatic-css-and-lobotomized-owls/) (`* + *`):
 

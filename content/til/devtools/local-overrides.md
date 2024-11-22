@@ -1,8 +1,9 @@
 ---
 date: 2023-12-11
+title: "Local overrides in Chrome DevTools"
+tags: ["devtools"]
 ---
 
-# Local overrides in Chrome DevTools
 
 Today I learned about the [local overrides](https://developer.chrome.com/docs/devtools/overrides) feature of Chrome Devtools that lets you "you can override HTTP response headers and web content, including XHR and fetch requests, to mock remote resources even if you don't have access to them".
 

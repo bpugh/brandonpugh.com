@@ -1,8 +1,9 @@
 ---
 date: 2023-11-09
+title: "`lh` and `rlh` units"
+tags: ["css"]
 ---
 
-# `lh` and `rlh` units
 
 Today I learned that there are new [line height](https://css-tricks.com/lh-and-rlh-units/) units in CSS.
 The `lh` unit is “equal to the computed value of line-height”.

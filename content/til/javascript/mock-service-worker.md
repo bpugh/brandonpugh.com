@@ -1,8 +1,9 @@
 ---
 date: 2023-09-13
+title: "Mock service worker"
+tags: ["javascript"]
 ---
 
-# Mock service worker
 
 I recently discovered [Mock Service Worker](https://mswjs.io/), a clever javascript utility that let's you mock your API by intercepting network requests.
 I've started using it in my frontend tests after reading Kent's article [Stop Mocking Fetch](https://kentcdodds.com/blog/stop-mocking-fetch) and it's a nice way to test a component is handling network requests appropriately without actually hitting an API.

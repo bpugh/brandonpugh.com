@@ -1,8 +1,9 @@
 ---
 date: 2023-11-08
+title: "Native node import path aliases"
+tags: ["node"]
 ---
 
-# Native node import path aliases
 
 Today I learned that node natively supports import path aliases with the [imports field](https://nodejs.org/api/packages.html#imports) in `package.json`.
 

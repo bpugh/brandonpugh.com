@@ -1,8 +1,9 @@
 ---
 date: 2023-09-19
+title: "Specify timestamp in Google Drive video URL"
+tags: ["google"]
 ---
 
-# Specify timestamp in Google Drive video URL
 
 Today I learned that Google Drive uses the same video player as YouTube so if you want to link to a specific timestamp in a video you can append a URL parameter like `t=<number of seconds>`.
 

@@ -1,8 +1,9 @@
 ---
 date: 2024-10-10
+title: "Console.trace()"
+tags: ["javascript"]
 ---
 
-# Console.trace()
 
 Today I learned about `console.trace()` when I needed to find out where a global function was being overridden:
 

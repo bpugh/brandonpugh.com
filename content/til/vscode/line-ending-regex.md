@@ -1,8 +1,9 @@
 ---
 date: 2024-08-20
+title: "Quickly change the end of a line"
+tags: ["vscode"]
 ---
 
-# Quickly change the end of a line
 
 This is a simple thing but I just discovered that with a simple regex and find/replace in most editors, you can quickly add text to the end of every line.
 

@@ -1,8 +1,9 @@
 ---
 date: 2024-02-26
+title: "Windows Dev Drive"
+tags: ["windows"]
 ---
 
-# Windows Dev Drive
 
 Today I learned about a new feature in Windows 11 called [Dev Drive](https://blog.maartenballiauw.be/post/2023/11/22/test-driving-windows-11-dev-drive-for-dotnet.html).
 

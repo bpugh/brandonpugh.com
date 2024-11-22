@@ -1,8 +1,9 @@
 ---
 date: 2024-02-12
+title: "Git Maintenance"
+tags: ["git"]
 ---
 
-# Git Maintenance
 
 Today I learned about the [`git maintenance`](https://git-scm.com/docs/git-maintenance) command that runs tasks for regular maintenance of a git repo.
 

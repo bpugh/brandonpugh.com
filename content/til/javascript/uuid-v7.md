@@ -1,8 +1,9 @@
 ---
 date: 2024-08-21
+title: "UUID v7"
+tags: ["javascript"]
 ---
 
-# UUID v7
 
 Today I learned that there are 8 versions of UUID!
 

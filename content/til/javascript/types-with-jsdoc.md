@@ -1,8 +1,9 @@
 ---
 date: 2023-07-13
+title: "Strong typing with JSDoc and Zod"
+tags: ["javascript"]
 ---
 
-# Strong typing with JSDoc and Zod
 
 You can get pretty good type checking in Javascript with just JSDoc comments and an editor like VS code or Visual Studio.
 You'll get most of the same intellisense and warnings in your editor as you would with Typescript.

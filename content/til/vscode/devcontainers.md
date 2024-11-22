@@ -1,8 +1,9 @@
 ---
 date: 2023-09-11
+title: "Dev containers"
+tags: ["vscode"]
 ---
 
-# Dev containers
 
 Today I learned that [dev containers](https://containers.dev/) are an actual spec.
 I'd been hearing the term more lately but I thought it was a general term for containers used for local development but it's actually an open spec for configuring an entire development environment within a container and it's what you use to configure a [github codespace](https://github.com/features/codespaces) for a repo.

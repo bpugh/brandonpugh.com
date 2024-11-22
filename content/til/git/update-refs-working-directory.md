@@ -1,8 +1,9 @@
 ---
 date: 2023-09-25
+title: "--update-refs won't update a ref if it's currently checked out in a working directory"
+tags: ["git"]
 ---
 
-# --update-refs won't update a ref if it's currently checked out in a working directory
 
 Today I learned that if you're using the fairly new `--update-refs` feature of git to update multiple refs during a rebase, git won't update a ref if it's currently checked out in another working directory for that repo.
 

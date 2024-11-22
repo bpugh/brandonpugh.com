@@ -1,8 +1,9 @@
 ---
 date: 2023-07-20
+title: "Sequence Diagrams"
+tags: ["documentation"]
 ---
 
-# Sequence Diagrams
 
 I learned how to correctly [read sequence diagrams](https://www.lucidchart.com/pages/uml-sequence-diagram).
 I came across a recent post that suggests "[Sequence diagrams are the only good thing UML brought to software development](https://www.mermaidchart.com/blog/posts/sequence-diagrams-the-good-thing-uml-brought-to-software-development)".

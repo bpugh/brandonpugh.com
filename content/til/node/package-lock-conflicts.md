@@ -1,8 +1,9 @@
 ---
 date: 2024-01-16
+title: "Fix package-lock.json merge conflicts"
+tags: ["node"]
 ---
 
-# Fix package-lock.json merge conflicts
 
 Today I learned that npm can handle merge conflicts in your `package-lock.json` file for you.
 

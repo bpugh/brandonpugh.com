@@ -1,8 +1,9 @@
 ---
 date: 2024-02-20
+title: "Truncate table"
+tags: ["sql"]
 ---
 
-# Truncate table
 
 Today I learned that there is a `truncate table` SQL command that deletes all data from a database table like `Delete from` but is faster and uses fewer system and transaction log resources.
 

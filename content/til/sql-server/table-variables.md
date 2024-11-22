@@ -1,8 +1,9 @@
 ---
 date: 2023-07-04
+title: "Use a table variable to hold a list of values"
+tags: ["sql-server"]
 ---
 
-# Use a table variable to hold a list of values
 
 You can store a "list" of values in sql with a `table` variable.
 

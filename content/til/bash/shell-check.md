@@ -1,8 +1,9 @@
 ---
 date: 2024-03-12
+title: "Shell Check"
+tags: ["bash"]
 ---
 
-# Shell Check
 
 Today I learned about [ShellCheck](https://www.shellcheck.net/) which is essentially a linter for bash scripts.
 

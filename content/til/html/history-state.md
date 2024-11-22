@@ -1,8 +1,9 @@
 ---
 date: 2024-10-07
+title: "History API state"
+tags: ["html"]
 ---
 
-# History API state
 
 Today I learned that you can actually store state in the browser history via the [history API](https://developer.mozilla.org/en-US/docs/Web/API/History) (note this is not the query string).
 

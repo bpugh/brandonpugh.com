@@ -1,8 +1,9 @@
 ---
 date: 2024-02-08
+title: "Number.isInteger()"
+tags: ["javascript"]
 ---
 
-# Number.isInteger()
 
 Today I learned that the [`isNaN`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/isNaN) global function in javascript isn't very useful for validating numbers.
 The main reason is that it returns `false` for an empty string since it coerces it to `0`.

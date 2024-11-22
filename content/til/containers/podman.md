@@ -1,8 +1,9 @@
 ---
 date: 2024-04-18
+title: "Podman is a nice alternative to Docker"
+tags: ["containers"]
 ---
 
-# Podman is a nice alternative to Docker
 
 Today I learned that Podman is a pretty nice alternative to Docker, and in my case was a drop-in-replacement for Docker Desktop.
 

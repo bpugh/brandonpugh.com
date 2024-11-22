@@ -1,8 +1,9 @@
 ---
 date: 2024-01-04
+title: "Easily reference upstream branch"
+tags: ["git"]
 ---
 
-# Easily reference upstream branch
 
 Today I learned that you can reference the upstream branch in git with `@{u}`.
 

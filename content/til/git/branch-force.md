@@ -1,8 +1,9 @@
 ---
 date: 2023-08-16
+title: "Git branch --force"
+tags: ["git"]
 ---
 
-# Git branch --force
 
 Today I learned about the `--force` parameter of `git branch` which will take an existing branch and point it to a different commit.
 This is another handy alternative to `git reset --hard` for some common scenarios.

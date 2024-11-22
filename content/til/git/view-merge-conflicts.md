@@ -1,8 +1,9 @@
 ---
 date: 2024-05-29
+title: "View the conflicts resolved in a merge commit"
+tags: ["git"]
 ---
 
-# View the conflicts resolved in a merge commit
 
 Today I learned that [in Git 2.36](https://github.blog/2022-04-18-highlights-from-git-2-36/#review-merge-conflict-resolution-with-remerge-diff), the `--remerge-diff` option was added to `git show`.
 This effectively lets you view any merge conflicts that occurred during a merge commit and how they were resolved.

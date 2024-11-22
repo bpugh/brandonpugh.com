@@ -1,8 +1,9 @@
 ---
 date: 2024-03-13
+title: "Preload critical assets"
+tags: ["html"]
 ---
 
-# Preload critical assets
 
 Today I learned that you can preload critical assets in a page by using the `preload` attribute on a link tag i.e. `<link rel="preload">`.
 

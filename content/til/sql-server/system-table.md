@@ -1,8 +1,9 @@
 ---
 date: 2023-07-06
+title: "Hide a table in sql server management studio"
+tags: ["sql-server"]
 ---
 
-# Hide a table in sql server management studio
 
 Apparently in sql server you can mark any table as a system table using `EXEC sys.sp_MS_marksystemobject` and then Management studio will hide it automatically.
 

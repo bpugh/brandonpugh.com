@@ -1,8 +1,9 @@
 ---
 date: 2023-08-28
+title: "Emulate page focus"
+tags: ["devtools"]
 ---
 
-# Emulate page focus
 
 Today I learned about a devtools feature that helped me debug the styling of an element that would disappear when the input element lost focus which happens when you click over to the devtools.
 

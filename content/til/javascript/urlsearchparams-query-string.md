@@ -1,8 +1,9 @@
 ---
 date: 2024-11-07
+title: "Use `URLSearchParams()` to build a query string"
+tags: ["javascript"]
 ---
 
-# Use `URLSearchParams()` to build a query string
 
 Today I learned that javascript has a handy built-in function called `URLSearchParams()` that you can use to build a url query string from an object.
 

@@ -1,8 +1,9 @@
 ---
 date: 2023-09-07
+title: "CSS accent-color property"
+tags: ["css"]
 ---
 
-# CSS accent-color property
 
 Today I learned that browsers now support an [accent-color](https://developer.mozilla.org/en-US/docs/Web/CSS/accent-color) property on some form inputs for customizing their color.
 This is especially nice for checkboxes and radio buttons because now I no longer need any workarounds I've used in the past to make a decent-looking checkbox.

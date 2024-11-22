@@ -1,8 +1,9 @@
 ---
 date: 2024-11-12
+title: "SRI integrity hash algorithms"
+tags: ["html"]
 ---
 
-# SRI integrity hash algorithms
 
 Today I learned that you can actually specify different hash algorithms for [Subresource Integrity](https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity) (SRI) hashes.
 

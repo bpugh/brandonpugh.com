@@ -1,8 +1,9 @@
 ---
 date: 2024-06-04
+title: "Cherry pick a range of commits"
+tags: ["git"]
 ---
 
-# Cherry pick a range of commits
 
 I just recently learned that you can actually cherry pick a range of commits instead of just a single commit:
 

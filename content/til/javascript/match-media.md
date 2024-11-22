@@ -1,8 +1,9 @@
 ---
 date: 2024-07-10
+title: "Use media queries in javascript with the `matchMedia()` method"
+tags: ["javascript"]
 ---
 
-# Use media queries in javascript with the `matchMedia()` method
 
 Today I learned that the `matchMedia()` javascript method lets you match against media queries and respond accordingly with javascript.
 

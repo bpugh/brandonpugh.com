@@ -1,8 +1,9 @@
 ---
 date: 2024-01-26
+title: "CSP `connect-src` directive"
+tags: ["html"]
 ---
 
-# CSP `connect-src` directive
 
 Today I learned that there is a Content-Security-Policy (CSP) directive `connect-src` that you can use to restrict all outgoing requests from your website to only the domains that you specify.
 

@@ -1,8 +1,9 @@
 ---
 date: 2024-01-12
+title: "Thin Space"
+tags: ["html"]
 ---
 
-# Thin Space
 
 Today I learned that there is an HTML entity called "thin space" that you can use when you need less space between two characters than the normal space.
 

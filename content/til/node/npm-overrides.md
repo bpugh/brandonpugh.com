@@ -1,8 +1,9 @@
 ---
 date: 2023-11-06
+title: "Override nested dependencies with npm"
+tags: ["node"]
 ---
 
-# Override nested dependencies with npm
 
 Today I learned that as of npm cli v8.3.0 (2021-12-09), you can use the [overrides field](https://docs.npmjs.com/cli/v9/configuring-npm/package-json#overrides) in `package.json` to "override" nested dependency versions.
 

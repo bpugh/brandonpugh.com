@@ -1,8 +1,9 @@
 ---
 date: 2023-08-17
+title: "Ignore commits in Git Blame with --ignore-revs-file"
+tags: ["git"]
 ---
 
-# Ignore commits in Git Blame with --ignore-revs-file
 
 Today I learned that you can ignore commits in Git blame on Github with a `.git-blame-ignore-revs` file in the root of your repo!
 

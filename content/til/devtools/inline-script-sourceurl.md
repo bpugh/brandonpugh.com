@@ -1,8 +1,9 @@
 ---
 date: 2024-01-29
+title: "sourceURL pragma"
+tags: ["devtools"]
 ---
 
-# sourceURL pragma
 
 Today I learned that you can add `//# sourceURL=<anything>.js` special comment to an inline script tag to have it show up as a separate javascript file in the dev tools sources tab.
 

@@ -1,8 +1,9 @@
 ---
 date: 2023-10-16
+title: "Conditional logic in pipelines YAML"
+tags: ["azure-devops"]
 ---
 
-# Conditional logic in pipelines YAML
 
 Today I learned that you can have conditional expressions in Azure Pipelines YAML files:
 
