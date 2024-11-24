@@ -2,6 +2,11 @@ baseURL: "https://www.brandonpugh.com/"
 title: Brandon Pugh's Blog
 paginate: 10
 theme: PaperMod
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -116,6 +121,10 @@ menu:
     - identifier: about
       name: about
       url: /about-me/
+      weight: 10
+    - identifier: search
+      name: Search
+      url: /search/
       weight: 10
     - identifier: til
       name: TIL
