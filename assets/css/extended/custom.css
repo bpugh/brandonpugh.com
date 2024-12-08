@@ -8,6 +8,10 @@
   --accent: #1d6dcf;
 }
 
+a[title="Rss"] {
+  color: #da6500;
+}
+
 .post-content a {
   color: var(--accent);
 }
