@@ -4,8 +4,8 @@ title: Avoid Committing Dumb Mistakes with Git hooks
 date: 2013-08-14 00:12:00
 comments: true
 categories: null
-published: true
 ---
+
 **TLDR**: Git hooks are an awesome way to automatically verify your code as you commit your changes
 
 I'm sure we've all been there where we accidentally committed a change that we were supposed to undo or wasn't ready to be pushed and don't realize it until the build breaks or QA finds a bug.

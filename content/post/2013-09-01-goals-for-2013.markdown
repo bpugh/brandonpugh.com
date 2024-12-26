@@ -2,7 +2,6 @@
 layout: post
 title: "Goals for 2013"
 date: 2013-01-04 09:33:00
-published: false
 comments: true
 categories:
 ---

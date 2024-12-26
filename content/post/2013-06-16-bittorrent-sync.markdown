@@ -1,6 +1,5 @@
 ---
 layout: post
-published: true
 title: "Bittorrent Sync - File syncing for developers"
 date: 2013-06-16 18:48:00
 comments: true

@@ -2,7 +2,6 @@
 comments: true
 date: 2011-10-09 23:59:33
 layout: post
-published: true
 slug: vsvim-visual-studio-extension-showcase
 title: VsVim [Visual Studio extension showcase]
 ---

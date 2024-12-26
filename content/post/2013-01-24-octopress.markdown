@@ -1,6 +1,5 @@
 ---
 layout: post
-published: true
 title: "The Obligatory Octopress Post"
 date: 2013-01-24 09:45:00
 comments: true
