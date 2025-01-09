@@ -18,7 +18,7 @@ Se ha escrito mucho sobre [cómo escribir buenos mensajes de commit](https://cbe
 
 ### Al fusionar PRs
 
-Los commits de merge que fusionan un pull request son más sencillos porque, hoy en día, generalmente son creados por el servicio de hosting de git, por lo que sabes que solo contienen todos los cambios de esa rama de características.
+Los commits de merge que fusionan un pull request son más sencillos porque, hoy en día, generalmente son creados por el servicio de hosting de git, por lo que sabes que solo contienen todos los cambios de esa rama.
 
 Pero aún puedes asegurarte de que transmitan la información más útil. Me gusta el mensaje predeterminado de Azure DevOps:
 
@@ -44,7 +44,9 @@ Merge branch 'main' into feature-branch
 
 Si te das cuenta, incluye un comentario recomendando explicar por qué el merge fue necesario. Esto podría ser algo como "Fusionando flujo de autenticación actualizado" o "Fusionando cambios en `sharedService` para evitar conflictos". Esto también implica que deberías tener una razón para el merge, con lo cual estoy de acuerdo, porque de lo contrario estarías añadiendo ruido innecesario al registro de git.
 
-Al mínimo, haz claro que es un commit de merge. No pongas algo como `actualizar migraciones de la base de datos`; si tuviste que hacer eso como resultado del merge, menciónalo en el cuerpo del mensaje (aunque, como explicaré en breve, debería ir en un commit de seguimiento). De lo contrario, dependiendo de cómo estés viendo el registro de git, puede que no sea obvio que es un commit de merge.
+Al mínimo, haz claro que es un commit de merge.
+No pongas algo como `actualizar migraciones de la base de datos` — si tuviste que hacer eso como resultado del merge, menciónalo en el cuerpo del mensaje (aunque, como explicaré en un momento, debería ir en un commit subsecuente).
+Si no, dependiendo de cómo estés viendo el git log, puede que no sea obvio que es un commit de merge.
 
 ### Lista los conflictos en el mensaje del commit
 
