@@ -1,5 +1,5 @@
 ---
-title: Mistakes engineers make in large established codebases | sean goedecke
+title: Mistakes engineers make in large established codebases
 date: 2025-01-09
 ---
 
