@@ -7,6 +7,7 @@ get_current_date() {
 
 # Function to create a new Markdown file with YAML front matter
 create_markdown_file() {
+  #todo: check if subdirectory exists first
   local path=$1
   local filename=$2
   local date=$(get_current_date)
@@ -23,7 +24,6 @@ create_markdown_file() {
   echo "tags: []" >> "${fullpath}"
   echo "---" >> "${fullpath}"
   echo "" >> "${fullpath}"
-  echo "#" >> "${fullpath}"
 
   echo "Created ${fullpath} with YAML front matter."
 
