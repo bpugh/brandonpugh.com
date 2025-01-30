@@ -10,7 +10,7 @@ I just recently learned that you can actually cherry pick a range of commits ins
 ```bash
 git cherry-pick c1..c3
 ```
-The above is using the two-dot range notation (`..`).
+The above is using the two-dot [range notation](https://darekkay.com/blog/git-commit-ranges/) (`..`).
 
 I was a bit surprised by this because I thought that this was the purpose of `rebase --onto` — to take a series of commits and apply them one at a time on top of some other commit.
 
@@ -20,20 +20,20 @@ Cherry-pick is more convenient if you want to take a series of commits from some
 
 Rebase is more convenient if you want to take the _current_ branch and apply it on top of some _other_ branch.
 And with the `--onto` parameter you can change the base or "parent branch".
-This is a bit harder to wrap your head around extremely powerful.
+This is a bit harder to wrap your head around but extremely powerful.
 
 For example given the following:
 
-```
+```txt
                         H---I---J topicB
                         /
               E---F---G  topicA
               /
 A---B---C---D  main
-```
+```txt
 If you run `git rebase --onto master topicA topicB` then you end up with:
 
-```
+```txt
               H'--I'--J'  topicB
             /
             | E---F---G  topicA
@@ -47,6 +47,7 @@ This [SO answer](https://stackoverflow.com/a/29916361/1715138) does a great job 
 Just remember: `git rebase --onto <newparent> <oldparent> <until>`
 
 To accomplish the same with cherry-pick would require something like:
+
 ```bash
 git checkout main
 git branch -b temp # create a new temp branch and switch to it
@@ -55,5 +56,3 @@ git checkout topicB
 git reset --hard temp # topicB is now updated to match temp
 git branch --delete temp
 ```
-
-
