@@ -1,5 +1,6 @@
 ---
 date: 2024-11-02
+comments: true
 title: "Edit commit message with git reword"
 tags: ["git"]
 ---
