@@ -87,12 +87,12 @@ params:
   socialIcons:
     - name: mastodon
       url: "https://hachyderm.io/@bpugh"
+    - name: bluesky
+      url: "https://bsky.app/profile/bpugh.dev"
     - name: stackoverflow
       url: "https://stackoverflow.com/users/1715138/brandon-pugh"
     - name: github
       url: "https://github.com/bpugh"
-    - name: twitter
-      url: "https://twitter.com/brndnpugh"
     - name: rss
       url: "/index.xml"
 
