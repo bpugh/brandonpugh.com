@@ -21,7 +21,7 @@ create_markdown_file() {
   echo "---" >> "${fullpath}"
   echo "date: ${date}" >> "${fullpath}"
   echo "title: " >> "${fullpath}"
-  echo "tags: []" >> "${fullpath}"
+  echo "tags: ['${path}']" >> "${fullpath}"
   echo "---" >> "${fullpath}"
   echo "" >> "${fullpath}"
 
