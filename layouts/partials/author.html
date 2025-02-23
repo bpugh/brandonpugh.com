@@ -1,0 +1,19 @@
+{{- /* Check if author exists in page or site params */ -}}
+{{- if or .Params.author site.Params.author }}
+
+  {{- /* Set $author with page author or fallback to site author */ -}}
+  {{- $author := (.Params.author | default site.Params.author) }}
+
+  {{- /* Determine the type of $author */ -}}
+  {{- $author_type := (printf "%T" $author) }}
+
+  {{- /* Handle multiple authors (array) */ -}}
+  {{- if or (eq $author_type "[]string") (eq $author_type "[]interface {}") }}
+    {{- delimit $author ", " }}
+  {{- else }}
+    <a rel="author" class="p-author h-card" href="/about-me">
+      {{- $author }}
+    </a>
+  {{- end }}
+
+{{- end }}
