@@ -3,6 +3,8 @@ comments: false
 date: 2012-01-10T17:23:56
 layout: page
 title: About Me
+aliases:
+- /about-me
 description: About Brandon Pugh
 ---
 
