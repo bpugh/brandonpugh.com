@@ -12,6 +12,7 @@ a[title="Rss"] {
   color: #da6500;
 }
 
+.reply-links a,
 .post-content a {
   color: var(--accent);
 }

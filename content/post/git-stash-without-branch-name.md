@@ -1,6 +1,7 @@
 ---
 title: "Git Stash Without the Branch Name"
 date: 2025-02-28T14:52:50-06:00
+comments: true
 tags: ["git"]
 ---
 
