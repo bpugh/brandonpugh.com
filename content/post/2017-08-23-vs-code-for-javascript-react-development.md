@@ -2,14 +2,15 @@
 author: 'Brandon Pugh'
 comments: true
 date: 2019-06-29T10:54:24+02:00
-lastmod: 2023-03-22
+lastmod: 2025-03-17
 draft: false
 image: ''
 menu: ''
 share: true
 tags:
   - javascript
-  - environment
+  - tooling
+  - vscode
 title: My Always-Up-to-Date VS Code Setup for Web Development
 ---
 
@@ -23,6 +24,7 @@ The team has put a lot of effort into making it a great javascript experience ou
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode): format javascript using the excellent new [Prettier](https://github.com/jlongster/prettier) project by [James Long](http://jlongster.com/)
 - [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint): Integrates [ESLint](https://eslint.org/) JavaScript linter into VS Code
 - [IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode): AI assisted intellisense for Python, TypeScript/JavaScript and Java
+- [Pretty Typescript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors): Makes typescript errors _much_ more readable in VS Code—really should be built-in
 - [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest): Integration for the [Jest](https://facebook.github.io/jest/) testing framework
 - [Jest Snippets](https://marketplace.visualstudio.com/items?itemName=andys8.jest-snippets): Common code snippets for unit tests
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker): An excellent spell checker that works well with camelCase code
