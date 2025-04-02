@@ -1,5 +1,5 @@
 (function () {
-  // Slugify a given text to create a URL-friendly filename
+  // Function to slugify a given text for the filename
   function slugify(text) {
     return text
       .toLowerCase()
@@ -22,6 +22,12 @@
   // Get the title, URL, and slug for the filename
   var title = getArticleTitle();
   var url = window.location.href;
+
+  // If the URL is a YouTube video, remove the trailing " - YouTube" from the title if present.
+  if (/youtube\.com\/watch|youtu\.be\//i.test(url)) {
+    title = title.replace(/\s+-\s+YouTube$/, '');
+  }
+
   var slug = slugify(title);
 
   // Get current date in YYYY-MM-DD format
@@ -34,10 +40,10 @@
     quoteBlock = '\n\n> ' + selectedText.replace(/\n/g, '\n> ');
   }
 
-  // Build the markdown content with YAML frontmatter
-  var content = `---\ndate: ${date}\ntitle: "${title}"\n---\n\n[${title}](${url})${quoteBlock}`;
+  // Build the Markdown content with YAML frontmatter including a tags field
+  var content = `---\ndate: ${date}\ntitle: "${title}"\ntags: [""]\n---\n\n[${title}](${url})${quoteBlock}`;
 
-  // Encode the content for use in a URL query string
+  // URL-encode the content for use in the query string
   var encodedContent = encodeURIComponent(content);
 
   // Construct the GitHub new file URL with filename and value parameters
