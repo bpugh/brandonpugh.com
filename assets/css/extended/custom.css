@@ -3,6 +3,12 @@
   --accent: #0a429b;
 }
 
+a[href*="youtube.com"]::after,
+a[href*="youtu.be"]::after {
+  content: " 📺";
+  margin-left: 4px;
+}
+
 .dark {
   /* --primary: #91d7e3; */
   --accent: #1d6dcf;
