@@ -7,7 +7,7 @@ tags: ["react"]
 
 I recently learned that there are actually several ways to add [comments in JSX in React](https://dmitripavlutin.com/react-comments/).
 
-I had known about the `{/* comment */}` syntax but realize you could use `//` _within_ a jsx element:
+I had known about the `{/* comment */}` syntax but didn't realize you could use `//` _within_ a jsx element:
 
 ```jsx
 function MyComponent() {
