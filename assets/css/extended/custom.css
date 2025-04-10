@@ -1,11 +1,54 @@
+em:before, em:after {
+  content: "\2728";
+}
+
 :root {
   /* --accent: hsl(230deg, 100%, 69%); */
   --accent: #0a429b;
 }
 
-a[href*="youtube.com"]::after,
-a[href*="youtu.be"]::after {
-  content: " 📺";
+input[type='email'] {
+  height: 40px;
+  border-radius: 6px;
+  margin-right: 0px;
+  padding: 10px;
+  background: revert;
+  border: revert;
+  font-family: 'ff-meta-web-pro', Helvetica, sans-serif;
+}
+
+form.newsletter input {
+  font-size: 18px;
+  padding: 2px 6px 3px 6px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.hidden,
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+input[type='submit'] {
+  padding: 0 10px;
+  height: 40px;
+  background-color: var(--accent);
+  color: #ffffff;
+  border-radius: 6px;
+  border-color: #444;
+  font-family: 'ff-meta-web-pro', Helvetica, sans-serif;
+}
+
+a[href*='youtube.com']::after,
+a[href*='youtu.be']::after {
+  content: ' 📺';
   margin-left: 4px;
 }
 
@@ -14,7 +57,7 @@ a[href*="youtu.be"]::after {
   --accent: #1d6dcf;
 }
 
-a[title="Rss"] {
+a[title='Rss'] {
   color: #da6500;
 }
 
