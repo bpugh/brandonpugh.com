@@ -124,6 +124,10 @@ menu:
       name: about
       url: /about/
       weight: 10
+    - identifier: sub
+      name: subscribe
+      url: /subscribe/
+      weight: 10
     - identifier: search
       name: Search
       url: /search/
@@ -136,10 +140,6 @@ menu:
       name: tags
       url: /tags/
       weight: 20
-    - identifier: example
-      name: A Better Way
-      url: /better-way/
-      weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:

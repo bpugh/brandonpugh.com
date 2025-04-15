@@ -13,7 +13,8 @@ input[type='email'] {
   margin-right: 0px;
   padding: 10px;
   background: revert;
-  border: revert;
+  border: 2px solid;
+  border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
   font-family: 'ff-meta-web-pro', Helvetica, sans-serif;
 }
 
