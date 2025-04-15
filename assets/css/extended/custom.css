@@ -1,4 +1,5 @@
-em:before, em:after {
+em strong:before,
+em strong:after {
   content: "\2728";
 }
 
