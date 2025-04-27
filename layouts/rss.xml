@@ -34,7 +34,7 @@
       {{ with .Site.Author.email }}<author>{{.}}{{ with $.Site.Author.name }} ({{.}}){{end}}</author>{{end}}
       <guid>{{ .Permalink }}</guid>
       <description>{{ .Content | html }}
-      {{ printf " <hr> <p>Thank you for keeping RSS alive. You're awesome.</p> <p><a href=\"mailto:blog@bpugh.dev\">Reply by email</a></p>" | html }}
+      {{ printf " <hr> <p>Thank you for keeping RSS alive. You're awesome.</p> <p><a href=\"mailto:blogrss@bpugh.dev\">Reply by email</a></p>" | html }}
         &lt;img src=&quot;https://blog.bpugh.workers.dev/cdn/images?p={{.RelPermalink}}feed&quot;&gt;
       </description>
     </item>
