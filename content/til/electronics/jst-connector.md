@@ -6,4 +6,4 @@ tags: ['electronics']
 
 Today I learned that the following white connector you commonly see in electronic devices, is called a ["JST connector"](https://en.wikipedia.org/wiki/JST_connector).
 
-![jst connector](../jst-connector-front-cropped-min.jpg)
+![jst connector](/til/electronics/jst-connector-front-cropped-min.jpg)

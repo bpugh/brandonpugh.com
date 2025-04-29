@@ -1,12 +1,12 @@
 ---
 date: 2025-04-01
-title: The "inverted pyramid" in journalism
+title: The "Inverted Pyramid" in journalism
 tags: ['writing']
 ---
 
 Continue with the writing, Today I learned about the [inverted pyramid](https://en.wikipedia.org/wiki/Inverted_pyramid_(journalism)) in journalism:
 
-![drawing of the inverted pyramid](inverted-pyramid.png)
+![sketch of the inverted pyramid](/til/writing/inverted-pyramid.png)
 
 It's a way to structure content so that it "begins with the details that readers care about most. As the article progresses, the focus shifts toward details that are relevant only to the most interested readers."
 
