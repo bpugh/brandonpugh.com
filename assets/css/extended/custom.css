@@ -8,6 +8,10 @@ em strong:after {
   --accent: #0a429b;
 }
 
+@view-transition {
+  navigation: auto;
+}
+
 input[type='email'] {
   height: 40px;
   border-radius: 6px;
