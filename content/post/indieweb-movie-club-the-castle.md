@@ -16,7 +16,7 @@ The humor is definitely my style with a fast stream of jokes, most of which came
 What I especially liked though, was how endearing I found Darryl Kerrigan and his family.
 I found myself really admiring how much his family loved and supported each other and how he didn't need much to be content and how he could still marvel at things most of us take for granted... like power lines.
 
-I'm glad I discoverd this Australian classic and learned a bit more about Australian culture (I now know what Rissoles are). I haven't seen many Australian comedies, but what I have seen I've enjoyed, like [Colin from Accounts](https://www.imdb.com/title/tt18228732/).
+I'm glad I discovered this Australian classic and learned a bit more about Australian culture (I now know what Rissoles are). I haven't seen many Australian comedies, but what I have seen I've enjoyed, like [Colin from Accounts](https://www.imdb.com/title/tt18228732/).
 
 I'm looking forward to discovering some more gems through the [Indieweb movie club](https://indieweb.org/IndieWeb_Movie_Club).
 
