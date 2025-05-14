@@ -1,6 +1,6 @@
 ---
 date: 2025-03-13
-title: Create exclusive accordions with HTML <details> element
+title: Create exclusive accordions with HTML `<details>` element
 tags: ['html']
 ---
 
