@@ -41,7 +41,7 @@
   }
 
   // Build the Markdown content with YAML frontmatter including a tags field
-  var content = `---\ndate: ${date}\ntitle: "${title}"\ntags: [""]\n---\n\n[${title}](${url})${quoteBlock}`;
+  var content = `---\ndate: ${date}\ntitle: "${title}"\ntags: [""]\n---\n\n[${title}](${url})${quoteBlock}\n`;
 
   // URL-encode the content for use in the query string
   var encodedContent = encodeURIComponent(content);
