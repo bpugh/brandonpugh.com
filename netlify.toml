@@ -9,6 +9,9 @@ command = "hugo -b $DEPLOY_PRIME_URL"
   to = "/blog/:slug"
   status = 301
 [[redirects]]
+  from = "/follow"
+  to = "/subscribe/"
+[[redirects]]
   from = "/uses"
   to = "/stuff-i-like/"
   status = 200
