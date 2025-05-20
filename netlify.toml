@@ -9,6 +9,10 @@ command = "hugo -b $DEPLOY_PRIME_URL"
   to = "/blog/:slug"
   status = 301
 [[redirects]]
+  from = "/uses"
+  to = "/stuff-i-like/"
+  status = 200
+[[redirects]]
   from = "/blazor-talk/*"
   to = "https://blazor-talk.netlify.app/:splat"
   status = 200
