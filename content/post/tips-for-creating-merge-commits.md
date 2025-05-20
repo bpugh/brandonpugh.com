@@ -47,9 +47,9 @@ Merge branch 'main' into feature-branch
 # especially if it merges an updated upstream into a topic branch.
 ```
 
-If you notice though, it includes a comment recommending explaining why the merge was necessary.
+If you notice though, it includes a comment that recommends explaining why the merge was necessary.
 This could be something like "Merging in updated auth flow" or "Merging in changes to `sharedService` to avoid conflicts".
-This also implies that you should have a reason for the merge which I agree with because otherwise you're adding unnecessary noise to the git log.
+This also implies that you should have a reason for the merge — which I agree with because otherwise you're adding unnecessary noise to the git log.
 
 At the very least make it clear that it's a merge commit.
 Don't just put something like `update database migrations` — if you did have to do that as a result of the merge then mention it in the body of the message (though as I'll explain shortly, it should go in a followup commit).

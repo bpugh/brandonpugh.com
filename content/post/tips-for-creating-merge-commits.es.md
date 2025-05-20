@@ -42,7 +42,7 @@ Merge branch 'main' into feature-branch
 # especialmente si fusiona una actualización upstream en una rama temática.
 ```
 
-Si te das cuenta, incluye un comentario recomendando explicar por qué el merge fue necesario. Esto podría ser algo como "Fusionando flujo de autenticación actualizado" o "Fusionando cambios en `sharedService` para evitar conflictos". Esto también implica que deberías tener una razón para el merge, con lo cual estoy de acuerdo, porque de lo contrario estarías añadiendo ruido innecesario al registro de git.
+Si te das cuenta, incluye un comentario que recomiende explicar por qué el merge fue necesario. Esto podría ser algo como "Fusionando flujo de autenticación actualizado" o "Fusionando cambios en `sharedService` para evitar conflictos". Esto también implica que deberías tener una razón para el merge, con lo cual estoy de acuerdo, porque de lo contrario estarías añadiendo ruido innecesario al registro de git.
 
 Al mínimo, haz claro que es un commit de merge.
 No pongas algo como `actualizar migraciones de la base de datos` — si tuviste que hacer eso como resultado del merge, menciónalo en el cuerpo del mensaje (aunque, como explicaré en un momento, debería ir en un commit subsecuente).
