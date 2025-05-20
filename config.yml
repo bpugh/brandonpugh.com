@@ -129,12 +129,16 @@ menu:
       url: /subscribe/
       weight: 10
     - identifier: search
-      name: Search
+      name: search
       url: /search/
       weight: 10
     - identifier: til
       name: TIL
       url: /til/
+      weight: 10
+    - identifier: links
+      name: links
+      url: /links/
       weight: 10
     - identifier: tags
       name: tags

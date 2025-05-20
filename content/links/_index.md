@@ -1,4 +1,4 @@
 ---
 title: Links
-description: Links worth sharing
+description: Links worth sharing. My experimental link blog.
 ---
