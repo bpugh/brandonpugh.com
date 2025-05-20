@@ -17,3 +17,5 @@ Honestly the most frustrating part of the story is the fact that Mailchimp doesn
 I also thought it was sneaky that they generated an api key on his account. So in addition to updating login credentials remember to check for any recently added api keys.
 
 I hadn't thought of this vector before, but it's now one more reason why I prefer subscribing via RSS.
+
+P.S. ButtonDown has a nice [Subscriber cleanup](https://docs.buttondown.com/subscriber-cleanup) feature.
