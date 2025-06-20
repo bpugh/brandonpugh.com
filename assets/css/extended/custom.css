@@ -30,6 +30,10 @@ form.newsletter input {
   box-sizing: border-box;
 }
 
+.post-content code {
+  white-space: nowrap;
+}
+
 .hidden,
 .visuallyhidden {
   border: 0;
