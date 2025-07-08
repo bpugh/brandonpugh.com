@@ -1,6 +1,7 @@
 ---
 date: 2025-06-05
 title: Use winget to install Git for Windows with Unix tools
+comments: true
 tags: ['windows']
 ---
 
