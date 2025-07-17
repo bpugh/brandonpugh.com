@@ -11,7 +11,8 @@ I frequently get asked about the various things that I like so I wanted an easy 
 
 ## Tech
 
-* [Mistel BAROCCO MD770](https://www.amazon.com/dp/B082FWZVYG) split mechanical keyboard.
+* [Mistel BAROCCO MD770](https://mistelkeyboard.com/products/d11cf7a73da49468e2a530b4cf18e76c) split mechanical keyboard.
+* [Keychron Q11](https://www.keychron.com/products/keychron-q11-qmk-custom-mechanical-keyboard?variant=40409509265497) my _new_ split mechanical keyboard.
 * [Logitech MX Master 3](https://www.amazon.com/dp/B07S395RWD) - My current favorite desktop mouse.
 * [Slate Travel Router](https://www.amazon.com/dp/B07GBXMBQF) - An awesome little travel router with several security features and it runs open-wrt.
 * [Jabra Elite 5](https://www.amazon.com/dp/B0B7ZNCXKZ) - My current wireless earbuds.
