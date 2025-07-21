@@ -1,12 +1,11 @@
 ---
 date: 2025-02-10T16:48:42-06:00
-lastmod: 2025-02-10T16:51:26-06:00
 title: JavaScript Temporal is coming
 ---
 
 [JavaScript Temporal is coming | MDN Blog](https://developer.mozilla.org/en-US/blog/javascript-temporal-is-coming/)
 
- This will be really nice once it's widely support. 
+This will be really nice once it's widely supported.
 
 ```js
 const durations = [

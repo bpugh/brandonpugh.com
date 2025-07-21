@@ -1,6 +1,5 @@
 ---
 date: 2025-02-20T15:38:35-06:00
-lastmod: 2025-02-20T15:40:05-06:00
 title: 'When Imperfect Systems are Good, Actually: Bluesky’s Lossy Timelines'
 ---
 
