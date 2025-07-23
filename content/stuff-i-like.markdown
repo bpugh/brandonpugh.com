@@ -16,6 +16,7 @@ I frequently get asked about the various things that I like so I wanted an easy 
 * [Logitech MX Master 3](https://www.amazon.com/dp/B07S395RWD) - My current favorite desktop mouse.
 * [Slate Travel Router](https://www.amazon.com/dp/B07GBXMBQF) - An awesome little travel router with several security features and it runs open-wrt.
 * [Jabra Elite 5](https://www.amazon.com/dp/B0B7ZNCXKZ) - My current wireless earbuds.
+* [MAGO cable organizer](https://www.hellomaco.com/collections/bestsellers/products/maco-organiser-dock-combo-pack) - I've using these since they were a kickstarter and I haven't found anything as good.
 
 ## Software
 
