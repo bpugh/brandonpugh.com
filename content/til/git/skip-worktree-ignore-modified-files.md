@@ -7,7 +7,7 @@ tags: ['git']
 Today I learned about the `--skip-worktree` command in git which will treat a file like it hasn't been modified.
 This is useful if you have to modify a file locally but don't ever want to commit it (config files are a common scenario).
 
-Like me you have seen `--assume-unchanged` used in this way but that's not what it's meant for since it's "designed for cases where it is expensive to check whether a group of files have been modified".
+Like me, you may have seen `--assume-unchanged` used in this way but that's not what it's meant for since it's "designed for cases where it is expensive to check whether a group of files have been modified".
 As a result you're likely to lose the changes you have made to those files.
 [This post](https://web.archive.org/web/20200604104042/http://fallengamer.livejournal.com/93321.html) shows a good summary of the outcomes of common operations with each command.
 
