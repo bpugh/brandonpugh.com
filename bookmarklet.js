@@ -51,6 +51,6 @@
   // Construct the GitHub new file URL with filename and value parameters
   var githubUrl = `https://github.com/bpugh/brandonpugh.com/new/main/content/links/?filename=${slug}.md&value=${encodedContent}`;
 
-  // Navigate to the constructed GitHub URL
-  window.location.href = githubUrl;
+  // Open the constructed GitHub URL in a new tab
+  window.open(githubUrl, '_blank');
 })();
