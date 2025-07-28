@@ -6,4 +6,4 @@ tags: [""]
 
 [How I Use Kagi](https://flamedfury.com/posts/how-i-use-kagi/)
 
-I've also been a fan of Kagi so far... I should probably write up my post.
+I've also been a fan of Kagi so far... this makes me want to do my own writeup...
