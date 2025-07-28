@@ -16,6 +16,8 @@
     if (metaTwitterTitle && metaTwitterTitle.content) return metaTwitterTitle.content;
     var metaTitle = document.querySelector('meta[name="title"]');
     if (metaTitle && metaTitle.content) return metaTitle.content;
+    var hEntryTitle = document.querySelector('.h-entry .p-name');
+    if (hEntryTitle) return hEntryTitle.textContent.trim();
     return document.title;
   }
 
@@ -41,7 +43,7 @@
   }
 
   // Build the Markdown content with YAML frontmatter including a tags field
-  var content = `---\ndate: ${date}\ntitle: "${title}"\ntags: [""]\n---\n\n[${title}](${url})${quoteBlock}\n`;
+  var content = `---\ndate: ${date}\ntitle: "${title}"\ntags: [""]\n---\n\n[${document.title}](${url})${quoteBlock}\n`;
 
   // URL-encode the content for use in the query string
   var encodedContent = encodeURIComponent(content);
