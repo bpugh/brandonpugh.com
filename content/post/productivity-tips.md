@@ -2,8 +2,7 @@
 author: 'Brandon Pugh'
 comments: true
 date: 2022-03-19
-image: ''
-menu: ''
+lastmod: 2025-08-24
 share: true
 tags:
   - tooling
@@ -121,16 +120,16 @@ You can also use a key remapper like autohotkey for text expansion with a bit mo
 
 ### Misc
 
-- enable clipboard history (native in Windows)
+- enable clipboard history (native in Windows) `win+v`
+  - [Ditto](https://sabrogden.github.io/Ditto/) for more features
   - Alfred on mac
-  - Ditto for more features
 - [chrome profiles](https://support.google.com/a/users/answer/9310144?hl=en) for different personalities
 - setup [custom searches in Chrome](https://zapier.com/blog/add-search-engine-to-chrome/)
 - Microsoft powertoys adds some very handy functionality
   - always on top
   - always awake
   - global mute (`win+shift+a`)
-  - command executor ([alfred](https://www.alfredapp.com/) on mac)
+  - command palette ([alfred](https://www.alfredapp.com/) on mac)
   - key remapper
 
 ## For developers
