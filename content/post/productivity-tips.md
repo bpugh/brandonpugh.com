@@ -11,6 +11,7 @@ title: An Assortment of Productivity Tips
 ---
 
 This is mostly a collection of my notes on productivity and little tips for saving time or being more efficient while doing knowledge work.
+I recently gave a lunch-n-learn at work where I discussed most of these points so I'm sharing them here in case anyone else finds them useful.
 
 ## Organization vs Execution
 
