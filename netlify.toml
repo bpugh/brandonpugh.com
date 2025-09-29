@@ -16,6 +16,10 @@ command = "hugo -b $DEPLOY_PRIME_URL"
   to = "/stuff-i-like/"
   status = 200
 [[redirects]]
+  from = "/blog/my-always-up-to-date-vs-code-setup-for-web-development/"
+  to = "/vscode-setup/"
+  status = 301
+[[redirects]]
   from = "/blazor-talk/*"
   to = "https://blazor-talk.netlify.app/:splat"
   status = 200
