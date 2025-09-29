@@ -9,6 +9,7 @@ tags:
   - tooling
   - vscode
 title: My Always-Up-to-Date VS Code Setup for Web Development
+slug: vscode-setup
 ---
 
 I've gone through the setup and daily use of a number of editors over the years including most current popular ones for front end development (i.e. sublime, atom, and vs code) and for me VS code is the best choice for front end development at the moment.
