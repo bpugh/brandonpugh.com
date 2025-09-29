@@ -31,7 +31,7 @@ The team has put a lot of effort into making it a great javascript experience ou
 - [Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens): Shows the latest version for each dependency in your `package.json`
 - [Markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint): Markdown linting and style checking for Visual Studio Code. Handy for editing Readme files
 - [Stylelint](https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint): Modern CSS/SCSS/Less linter
-- [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons): Very extensive set of icons for just about every file type imaginable
+- [vscode-icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons): Very extensive set of icons for just about every file type imaginable. You could consider it purely aesthetics, but I find have distinct icons makes it easier at a glance to find certain files i.e. a different icon for a `spec.js` file.
 - [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock): Subtly change the workspace color of your workspace. Ideal when you have multiple VS Code instances and you want to quickly identify which is which
 
 ## React Specific
@@ -48,6 +48,11 @@ _Update: It's been a while now since I've been on an Angular project so I can't 
 - [Angular2 inline](https://marketplace.visualstudio.com/items?itemName=natewallace.angular2-inline): Syntax highlighting for Angular inline templates
 - [Angular snippets](https://marketplace.visualstudio.com/items?itemName=johnpapa.Angular2&wt.mc_id=angularessentials-github-jopapa): Angular v8 snippets
 - [Angular Component Extractor](https://marketplace.visualstudio.com/items?itemName=PKief.angular-component-extractor): Helper to extract components from templates
+
+## Aesthetics
+
+- [Atom dark theme](https://marketplace.visualstudio.com/items?itemName=zhuangtongfa.Material-theme): since I used Atom quite a bit before VS code I still feel very at home with this theme, especially in javascript.
+_ [Catppuccin theme](https://marketplace.visualstudio.com/items?itemName=Catppuccin.catppuccin-vsc): a very popular color scheme that I've been liking lately — particularly the Macchiato variant.
 
 ### Make use of VS Code's recommended extensions feature
 
