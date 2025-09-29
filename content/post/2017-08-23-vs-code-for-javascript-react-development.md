@@ -2,10 +2,7 @@
 author: 'Brandon Pugh'
 comments: true
 date: 2019-06-29T10:54:24+02:00
-lastmod: 2025-03-17
-draft: false
-image: ''
-menu: ''
+lastmod: 2025-07-29
 share: true
 tags:
   - javascript
@@ -23,14 +20,13 @@ The team has put a lot of effort into making it a great javascript experience ou
 - [EditorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig): See [http://editorconfig.org/](http://editorconfig.org/) if you don't already have a `.editorconfig` file in your project
 - [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode): format javascript using the excellent new [Prettier](https://github.com/jlongster/prettier) project by [James Long](http://jlongster.com/)
 - [Eslint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint): Integrates [ESLint](https://eslint.org/) JavaScript linter into VS Code
-- [IntelliCode](https://marketplace.visualstudio.com/items?itemName=VisualStudioExptTeam.vscodeintellicode): AI assisted intellisense for Python, TypeScript/JavaScript and Java
+- [GitLens](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens): adds quite a bit of functionality over the builtin git experience in with the free version.
 - [Pretty Typescript Errors](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors): Makes typescript errors _much_ more readable in VS Code—really should be built-in
 - [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest): Integration for the [Jest](https://facebook.github.io/jest/) testing framework
+- [Vitest](https://marketplace.visualstudio.com/items?itemName=vitest.explorer): Since I'm using Vite these days, I prefer [Vitest](https://vitest.dev/) over Jest and this is their vscode integration.
 - [Jest Snippets](https://marketplace.visualstudio.com/items?itemName=andys8.jest-snippets): Common code snippets for unit tests
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker): An excellent spell checker that works well with camelCase code
 - [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense): Autocompletes filenames, handy when typing paths to import modules
-- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag): Auto rename paired tag in HTML/XML and JSX
-- [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag): Auto add closing tags in HTML/XML and JSX
 - [Version Lens](https://marketplace.visualstudio.com/items?itemName=pflannery.vscode-versionlens): Shows the latest version for each dependency in your `package.json`
 - [Markdownlint](https://marketplace.visualstudio.com/items?itemName=DavidAnson.vscode-markdownlint): Markdown linting and style checking for Visual Studio Code. Handy for editing Readme files
 - [Stylelint](https://marketplace.visualstudio.com/items?itemName=shinnn.stylelint): Modern CSS/SCSS/Less linter
@@ -44,6 +40,8 @@ The team has put a lot of effort into making it a great javascript experience ou
 - [Sapling](https://marketplace.visualstudio.com/items?itemName=team-sapling.sapling): Creates an interactive component dependency tree embedded within the VS Code sidebar
 
 ## Angular Specific
+
+_Update: It's been a while now since I've been on an Angular project so I can't really speak to whether these are still the best options but I'm leaving them here in case they're still useful._
 
 - [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template): Rich editing support for Angular html templates
 - [Angular2 inline](https://marketplace.visualstudio.com/items?itemName=natewallace.angular2-inline): Syntax highlighting for Angular inline templates
@@ -65,18 +63,14 @@ extensions.json:
   // for the documentation about the extensions.json format
   "recommendations": [
     // Extension identifier format: ${publisher}.${name}.
-    "formulahendry.auto-close-tag",
-    "formulahendry.auto-rename-tag",
-    "angryobject.react-pure-to-class-vscode",
     "streetsidesoftware.code-spell-checker",
     "EditorConfig.EditorConfig",
     "dbaeumer.vscode-eslint",
     "xabikos.ReactSnippets",
-    "gottfired.css2react",
+    "eamodio.gitlens",
     "andys8.jest-snippets",
     "Orta.vscode-jest",
     "christian-kohler.path-intellisense",
-    "msjsdiag.debugger-for-chrome",
     "pflannery.vscode-versionlens",
     "esbenp.prettier-vscode"
   ]
