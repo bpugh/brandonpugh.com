@@ -8,4 +8,4 @@ draft = true
 # Some goals for 2017
 
 ## Get started with Machine Learning
-A growing trend with some very usefule applications
+A growing trend with some very useful applications
