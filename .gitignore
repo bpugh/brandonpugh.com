@@ -3,3 +3,4 @@ drafts
 .sync
 .vscode
 .obsidian
+.hugo_build.lock
