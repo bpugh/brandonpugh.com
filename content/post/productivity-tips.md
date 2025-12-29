@@ -10,7 +10,8 @@ tags:
 title: An Assortment of Productivity Tips
 ---
 
-This is mostly a collection of my notes on productivity and little tips for saving time or being more efficient while doing knowledge work.
+I recently gave a lunch-n-learn at work on productivity.
+This is brief a overview of the points from the talk and little tips for saving time or being more efficient while doing knowledge work.
 
 ## Organization vs Execution
 
