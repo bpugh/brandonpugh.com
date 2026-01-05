@@ -1,3 +1,11 @@
+.post-title {
+  text-wrap: balance;
+}
+
+.post-content {
+  text-wrap: pretty;
+}
+
 em strong:before,
 em strong:after {
   content: "\2728";
