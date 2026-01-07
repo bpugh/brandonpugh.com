@@ -38,7 +38,7 @@ form.newsletter input {
   box-sizing: border-box;
 }
 
-.post-content code {
+.post-content p > code {
   white-space: nowrap;
 }
 
