@@ -39,3 +39,7 @@ command = "hugo -b $DEPLOY_PRIME_URL"
   from = "/git-talk/*"
   to = "https://git-talk.netlify.app/:splat"
   status = 200
+[[redirects]]
+  from = "/in"
+  to = "/"
+  status = 200
