@@ -12,6 +12,10 @@ command = "hugo -b $DEPLOY_PRIME_URL"
   from = "/follow"
   to = "/subscribe/"
 [[redirects]]
+  from = "/about-me"
+  to = "/about/"
+  status = 301
+[[redirects]]
   from = "/uses"
   to = "/stuff-i-like/"
   status = 200
@@ -38,6 +42,10 @@ command = "hugo -b $DEPLOY_PRIME_URL"
 [[redirects]]
   from = "/git-talk/*"
   to = "https://git-talk.netlify.app/:splat"
+  status = 200
+[[redirects]]
+  from = "/what-i-do/*"
+  to = "https://what-i-do-sw.netlify.app/:splat"
   status = 200
 [[redirects]]
   from = "/in"
