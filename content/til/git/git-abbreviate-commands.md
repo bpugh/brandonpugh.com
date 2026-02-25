@@ -6,7 +6,14 @@ tags: ["git", "vim"]
 
 This is probably a very niche use case, but I learned today that you can abbreviate commands that git populates in the todo list during an interactive rebase.
 
-So it'll look like this:
+So instead of this:
+
+```bash
+    pick deadbee The oneline of the commit
+    pick fa1afe1 The oneline of the next commit
+```
+
+***It'll look like this:***
 
 ```bash
     p deadbee The oneline of the commit
