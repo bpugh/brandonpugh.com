@@ -1,6 +1,7 @@
 ---
 date: 2025-06-20
 title: Use skip-worktree to ignore modified files
+comments: true
 tags: ['git']
 ---
 

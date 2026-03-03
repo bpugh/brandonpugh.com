@@ -1,6 +1,7 @@
 ---
 date: 2024-01-15
 title: "Dynamically darken or lighten a color in CSS"
+comments: true
 tags: ["css"]
 ---
 
