@@ -4,8 +4,7 @@ title: "Git branch --force"
 tags: ["git"]
 ---
 
-
-Today I learned about the `--force` parameter of `git branch` which will take an existing branch and point it to a different commit.
+Today I learned about the [`--force`](https://git-scm.com/docs/git-branch#Documentation/git-branch.txt---force) parameter of `git branch` which will take an existing branch and point it to a different commit.
 This is another handy alternative to `git reset --hard` for some common scenarios.
 
 For example, if I forgot to create a new feature branch and accidentally made some commits onto `main`, I can run the following:
@@ -22,7 +21,5 @@ git branch new-branch
 git reset --hard origin/main
 git checkout new-branch
 ```
+
 which is one less command, but even better the contents of my working directory don't have to change at all!
-
-
-
