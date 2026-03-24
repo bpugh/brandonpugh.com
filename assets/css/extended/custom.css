@@ -42,6 +42,26 @@ form.newsletter input {
   white-space: nowrap;
 }
 
+/* Accessibility improvements for strikethrough text */
+del::before,
+del::after {
+  clip-path: inset(100%);
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+del::before {
+  content: " [deletion start] ";
+}
+
+del::after {
+  content: " [deletion end] ";
+}
+
 .hidden,
 .visuallyhidden {
   border: 0;
