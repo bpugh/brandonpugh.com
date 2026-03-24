@@ -20,7 +20,7 @@ em strong:after {
   navigation: auto;
 }
 
-input[type='email'] {
+input[type="email"] {
   height: 40px;
   border-radius: 6px;
   margin-right: 0px;
@@ -28,7 +28,7 @@ input[type='email'] {
   background: revert;
   border: 2px solid;
   border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
-  font-family: 'ff-meta-web-pro', Helvetica, sans-serif;
+  font-family: "ff-meta-web-pro", Helvetica, sans-serif;
 }
 
 form.newsletter input {
@@ -54,14 +54,14 @@ form.newsletter input {
   width: 1px;
 }
 
-input[type='submit'] {
+input[type="submit"] {
   padding: 0 10px;
   height: 40px;
   background-color: var(--accent);
   color: #ffffff;
   border-radius: 6px;
   border-color: #444;
-  font-family: 'ff-meta-web-pro', Helvetica, sans-serif;
+  font-family: "ff-meta-web-pro", Helvetica, sans-serif;
 }
 
 a[href*='youtube.com']::after,
@@ -70,12 +70,12 @@ a[href*='youtu.be']::after {
   margin-left: 4px;
 }
 
-:root[data-theme=dark] {
+:root[data-theme="dark"] {
   /* --primary: #91d7e3; */
   --accent: #1d6dcf;
 }
 
-a[title='Rss'] {
+a[title="Rss"] {
   color: #da6500;
 }
 
