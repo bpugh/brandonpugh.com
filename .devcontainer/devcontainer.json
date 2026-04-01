@@ -1,0 +1,49 @@
+{
+  "name": "Brandon Pugh Blog",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  
+  "features": {
+    "ghcr.io/devcontainers/features/hugo:1": {
+      "version": "0.153.2",
+      "extended": true
+    },
+    "ghcr.io/devcontainers/features/git:1": {
+      "version": "latest"
+    },
+    "ghcr.io/devcontainers/features/node:1": {
+      "version": "lts"
+    }
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "budparr.language-hugo-vscode",
+        "tamasfe.even-better-toml",
+        "yzhang.markdown-all-in-one",
+        "davidanson.vscode-markdownlint"
+      ],
+      "settings": {
+        "terminal.integrated.defaultProfile.linux": "bash"
+      }
+    }
+  },
+
+  // Forward port 1313 for Hugo development server
+  "forwardPorts": [1313],
+  "portsAttributes": {
+    "1313": {
+      "label": "Hugo Dev Server",
+      "onAutoForward": "notify"
+    }
+  },
+
+  // Run hugo server on container start
+  "postCreateCommand": "git submodule update --init --recursive",
+  
+  // Set the default shell
+  "postAttachCommand": "echo 'Hugo devcontainer ready! Run: hugo server -D' && hugo version",
+
+  // Use 'postStartCommand' to run commands after the container starts
+  "remoteUser": "vscode"
+}
