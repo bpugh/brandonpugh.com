@@ -3,9 +3,8 @@ title: "My Digital Garden"
 date: 2026-01-18
 ---
 
-# Digital Garden
-
-Welcome to my digital garden—a collection of evolving thoughts, ideas, and notes that grow over time. Unlike traditional blog posts, these entries are living documents that I revisit, revise, and cultivate as my understanding develops.
+This is my digital garden... a collection of evolving thoughts, ideas, and notes that grow over time. Unlike traditional blog posts, these entries are living documents that I revisit, revise, and cultivate as my understanding develops.
+I tend to think of kind of like a public notebook.
 
 ## What is a Digital Garden?
 
