@@ -4,7 +4,7 @@ title: Enable markdown in Google Docs
 tags: ['google', 'productivity']
 ---
 
-Today I learned that you [enable markdown](https://support.google.com/docs/answer/12014036?hl=en) in Google Docs.
+Today I learned that you can [enable markdown](https://support.google.com/docs/answer/12014036?hl=en) in Google Docs.
 
 This isn't really _full_ markdown support but it does make interoperating with markdown easier.
 
