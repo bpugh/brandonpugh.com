@@ -30,7 +30,7 @@ Merged PR 123: <PR title>
 ```
 
 You can get a similar default in GitHub by configuring the default [merge commit settings](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/configuring-commit-merging-for-pull-requests) in the repository settings.
-If you're already writing a [valuable PR description](https://www.pullrequest.com/blog/writing-a-great-pull-request-description/), why immortalize it in the repo itself?
+If you're already writing a [valuable PR description](https://www.pullrequest.com/blog/writing-a-great-pull-request-description/), why not immortalize it in the repo itself?
 
 Note: This is even more important for squash merges.
 
