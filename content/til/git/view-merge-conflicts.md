@@ -10,7 +10,7 @@ This effectively lets you view any merge conflicts that occurred during a merge 
 
 So for instance, `git show --remerge-diff <commit-message-id>` would show something like:
 
-![terminal screenshot of git show output](view-merge-conflicts.png)
+![terminal screenshot of git show output](/til/git/view-merge-conflicts.png)
 
 Under the hood, it recreates the merge with the conflicts and diffs it with the merge commit so the conflict markers are shown in red since the merge commit removes the conflict markers during resolution.
 
