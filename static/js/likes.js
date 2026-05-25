@@ -3,6 +3,9 @@
   if (!container) return;
 
   const slug = container.dataset.slug;
+  const apiUrl = container.dataset.api;
+  if (!apiUrl) return;
+
   const button = container.querySelector(".like-button");
   const countEl = container.querySelector(".like-count");
   const storageKey = "liked:" + slug;
@@ -13,7 +16,7 @@
   }
 
   // Fetch current count
-  fetch("/api/likes?slug=" + encodeURIComponent(slug))
+  fetch(apiUrl + "?slug=" + encodeURIComponent(slug))
     .then((r) => r.json())
     .then((data) => {
       countEl.textContent = data.count || "";
@@ -27,7 +30,7 @@
     button.setAttribute("aria-label", "Already liked");
     localStorage.setItem(storageKey, "1");
 
-    fetch("/api/likes?slug=" + encodeURIComponent(slug), { method: "POST" })
+    fetch(apiUrl + "?slug=" + encodeURIComponent(slug), { method: "POST" })
       .then((r) => r.json())
       .then((data) => {
         countEl.textContent = data.count || "";

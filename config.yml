@@ -26,6 +26,7 @@ params:
   description: "Brandon Pugh's experiences on professional software development, technology and productivity"
   keywords: [Blog, Portfolio, PaperMod]
   author: Brandon Pugh
+  likesApiUrl: https://likes-api.bpugh.workers.dev
   # author: ["Me", "You"] # multiple authors
   images: ["/images/android-chrome-192x192.png"]
   DateFormat: "January 2, 2006"
