@@ -168,3 +168,7 @@ a[title="Rss"] {
 .like-button.liked:hover {
   opacity: 1;
 }
+
+.like-count:empty {
+  display: none;
+}
