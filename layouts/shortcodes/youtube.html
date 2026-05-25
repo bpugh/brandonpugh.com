@@ -1,0 +1,4 @@
+{{- $id := .Get 0 -}}
+<lite-youtube videoid="{{ $id }}" autoload>
+  <a class="lite-youtube-fallback" href="https://www.youtube.com/watch?v={{ $id }}">Watch on YouTube</a>
+</lite-youtube>
