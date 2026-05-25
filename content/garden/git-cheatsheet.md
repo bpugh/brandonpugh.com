@@ -7,10 +7,18 @@ tags: ["git"]
 
 ## Submodules
 
+See [Demystifying git submodules](https://www.cyberdemon.org/2024/03/20/submodules.html)
+
 Command to run after first cloning a repo that uses submodules:
 
 ```bash
 git submodule update --init --recursive
+```
+
+if submodule has been updated on remote, then run this after git pull:
+
+```bash
+git submodule update
 ```
 
 ## Keep fork updated
