@@ -25,8 +25,8 @@ Some of the points I cover:
 * Accessibility
 * Testing
 
-
 {{< youtube q7qgSzAALLg >}}
+
 [Blazor Best Practices Borrowed from React][1]
 
 [1]: https://www.youtube.com/watch?v=q7qgSzAALLg
