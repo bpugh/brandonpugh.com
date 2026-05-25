@@ -12,3 +12,10 @@ Command to run after first cloning a repo that uses submodules:
 ```bash
 git submodule update --init --recursive
 ```
+
+## Keep fork updated
+
+```bash
+git remote add upstream https://github.com/adityatelange/hugo-PaperMod.git
+git fetch upstream/master
+```
