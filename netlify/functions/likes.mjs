@@ -17,16 +17,19 @@ export default async (req, context) => {
     });
   }
 
+  // Blob keys must not start with /
+  const key = slug.replace(/^\/+/, "");
+
   if (req.method === "GET") {
-    const data = await store.get(slug, { type: "json" });
+    const data = await store.get(key, { type: "json" });
     const count = data?.count ?? 0;
     return new Response(JSON.stringify({ count }), { headers });
   }
 
   if (req.method === "POST") {
-    const data = await store.get(slug, { type: "json" });
+    const data = await store.get(key, { type: "json" });
     const count = (data?.count ?? 0) + 1;
-    await store.setJSON(slug, { count });
+    await store.setJSON(key, { count });
     return new Response(JSON.stringify({ count }), { headers });
   }
 
