@@ -1,11 +1,26 @@
 baseURL: "https://www.brandonpugh.com/"
 title: Brandon Pugh's Blog
 theme: PaperMod
+
+mediaTypes:
+  application/atom+xml:
+    suffixes:
+      - xml
+
+outputFormats:
+  Atom:
+    mediaType: application/atom+xml
+    baseName: atom
+    rel: alternate
+
 outputs:
   home:
     - HTML
-    - RSS
+    - Atom
     - JSON # necessary for search
+  section:
+    - HTML
+    - Atom
 
 enableRobotsTXT: true
 buildDrafts: false
@@ -96,7 +111,7 @@ params:
     - name: github
       url: "https://github.com/bpugh"
     - name: rss
-      url: "/index.xml"
+      url: "/atom.xml"
 
   cover:
     hidden: true # hide everywhere but not in structured data

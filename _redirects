@@ -1,3 +1,9 @@
 # Redirect http to primary https domain
 http://brandonpugh.com/* https://www.brandonpugh.com/:splat 301!
 https://brandonpugh.com/* https://www.brandonpugh.com/:splat 301!
+
+# Redirect old RSS feed URLs to Atom feeds
+/index.xml /atom.xml 301
+/post/index.xml /post/atom.xml 301
+/til/index.xml /til/atom.xml 301
+/links/index.xml /links/atom.xml 301
