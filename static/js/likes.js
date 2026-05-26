@@ -16,10 +16,10 @@
   }
 
   // Fetch current count
-  fetch(apiUrl + "?slug=" + encodeURIComponent(slug))
+  fetch(apiUrl + "?page=" + encodeURIComponent(slug))
     .then((r) => r.json())
     .then((data) => {
-      countEl.textContent = data.count || "";
+      countEl.textContent = data.likes || "";
     })
     .catch(() => {});
 
@@ -30,10 +30,12 @@
     button.setAttribute("aria-label", "Already liked");
     localStorage.setItem(storageKey, "1");
 
-    fetch(apiUrl + "?slug=" + encodeURIComponent(slug), { method: "POST" })
+    fetch(apiUrl + "?page=" + encodeURIComponent(slug), {
+      method: "POST",
+    })
       .then((r) => r.json())
       .then((data) => {
-        countEl.textContent = data.count || "";
+        countEl.textContent = data.likes || "";
       })
       .catch(() => {});
   });
