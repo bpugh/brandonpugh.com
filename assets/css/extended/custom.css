@@ -172,3 +172,64 @@ a[title="Rss"] {
 .like-count:empty {
   display: none;
 }
+
+/* GitHub-style blockquote alerts */
+.alert {
+  padding: 0.5rem 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid transparent;
+  border-radius: 0.375rem;
+  border-left-width: 4px;
+}
+
+.alert p:last-child {
+  margin-bottom: 0;
+}
+
+.alert-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.alert-note {
+  border-left-color: #478be6;
+  background-color: rgba(71, 139, 230, 0.1);
+}
+.alert-note .alert-heading {
+  color: #478be6;
+}
+
+.alert-tip {
+  border-left-color: #3fb950;
+  background-color: rgba(63, 185, 80, 0.1);
+}
+.alert-tip .alert-heading {
+  color: #3fb950;
+}
+
+.alert-important {
+  border-left-color: #a371f7;
+  background-color: rgba(163, 113, 247, 0.1);
+}
+.alert-important .alert-heading {
+  color: #a371f7;
+}
+
+.alert-warning {
+  border-left-color: #d29922;
+  background-color: rgba(210, 153, 34, 0.1);
+}
+.alert-warning .alert-heading {
+  color: #d29922;
+}
+
+.alert-caution {
+  border-left-color: #f85149;
+  background-color: rgba(248, 81, 73, 0.1);
+}
+.alert-caution .alert-heading {
+  color: #f85149;
+}
