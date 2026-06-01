@@ -22,4 +22,4 @@ You'll get a lot of options when searching for 18650 batteries but the tricky pa
 
 ![jst connector of the battery](/til/electronics/fix-bunny-led-jst-connector.webp)
 
-[This replacement worked](https://www.amazon.com/dp/B0CGTYDJLM)
+[This replacement worked](https://www.amazon.com/dp/B0GKGN81L9)
