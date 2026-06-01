@@ -12,6 +12,7 @@ These are the various ways to find out when I post things to my site.
 - [Articles feed](https://www.brandonpugh.com/post/index.xml) - just my longer form blog entries
 - [TIL feed](https://www.brandonpugh.com/til/index.xml) - "Today I learned" posts
 - [Links feed](https://www.brandonpugh.com/links/index.xml) - A good old fashioned [link blog](https://simonwillison.net/2024/Dec/22/link-blog/)—[Links](/links/) I've found worth sharing.
+- [Everything feed](https://www.brandonpugh.com/feed/index.xml) - all content from all sections
 
 ## Email
 
