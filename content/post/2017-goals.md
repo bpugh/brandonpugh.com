@@ -1,9 +1,14 @@
-+++
-date = "2017-01-14T12:26:57-06:00"
-title = "2017 goals"
-draft = true
-
-+++
+---
+author: 'Brandon Pugh'
+comments: true
+date: 2023-04-15
+lastmod: 2026-04-15
+draft: true
+tags:
+  - tooling
+  - productivity
+title: My goals for 2023
+---
 
 # Some goals for 2017
 
