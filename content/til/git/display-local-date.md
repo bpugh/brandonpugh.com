@@ -12,7 +12,7 @@ For example:
 git show --date=local
 ```
 
-And as usual, if you Git to always display dates this way then you can set it globally with:
+And as usual, if you want Git to always display dates this way then you can set it globally with:
 
 ```bash
 git config --global log.date local
