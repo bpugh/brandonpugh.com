@@ -11,7 +11,7 @@
 <blockquote class="alert alert-{{ $type }}">
   <p class="alert-heading">
     <span aria-hidden="true">{{- $icon | safeHTML -}}</span>
-    <span>{{ $title }}</span>
+    <em><span>{{ $title }}</span></em>
   </p>
   {{ .Text }}
 </blockquote>
