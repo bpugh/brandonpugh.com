@@ -5,6 +5,8 @@ title: "Alerts, Callouts, and Admonitions"
 tags: ["markdown", "html"]
 ---
 
+What my site currently supports:
+
 > [!note]
 > Highlights information that users should take into account, even when skimming.
 
@@ -19,3 +21,8 @@ tags: ["markdown", "html"]
 
 > [!caution]
 > Negative potential consequences of an action.
+
+## Prior art
+
+* [Admonish the Callout - Mandaris](https://mandarismoore.com/2026/05/02/admonish-the-callout/) inspired me to finally implement on my blog
+* [antfu/markdown-it-github-alerts: Support GitHub-style alerts for markdown-it](https://github.com/antfu/markdown-it-github-alerts)
