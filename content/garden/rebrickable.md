@@ -39,7 +39,7 @@ target.append(minifigs)
 Alternatively, I can remove the specific elements:
 
 ```js
-document.querySelectorAll('.heading-title, #inventory > .row, #inventory > .mt-10, .flexslider, .flexslider-controls-container-sets, .nav-tabs, footer').forEach(el => el.remove())
+document.querySelectorAll('nav, .heading-title, #inventory > .row, #inventory > .mt-10, .flexslider, .flexslider-controls-container-sets, .nav-tabs, footer').forEach(el => el.remove())
 ```
 
 This doesn't print quite as nicely as the first approach but it's probably good enough.
