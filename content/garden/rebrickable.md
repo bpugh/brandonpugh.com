@@ -26,7 +26,16 @@ style.textContent = `
 document.head.appendChild(style);
 ```
 
-I tried the following to remove all unnecessary elements, which unfortunately this sometimes causes the page to re-fetch the images which causes half to fail to load.
+Next, I needed to remove all the unnecessary elements in the page.
+Of course, if this is just a one-off print then it's probably easier to remove the elements by inspecting them with the browser devtools.
+But since I'll be doing this several times I turned to javascript to make it repeatable:
+
+```js
+document.querySelectorAll('nav, .heading-title, #inventory > .row, #inventory > .mt-10, .flexslider, .flexslider-controls-container-sets, .nav-tabs, footer').forEach(el => el.remove())
+```
+
+Just with that it prints much nice but there's still some unnecessary whitespace and container elements.
+Instead of trying to remove _all_ the elements (some of which were hard to target) I came up with the following to move the main content higher up the DOM tree:
 
 ```js
 var source = document.getElementById('parts_standard')
@@ -36,17 +45,10 @@ target.innerHTML = source.innerHTML
 target.append(minifigs)
 ```
 
-Alternatively, I can remove the specific elements:
+This prints the cleanest but can sometimes cause the page to re-fetch the images which causes half to fail to load.
 
-```js
-document.querySelectorAll('nav, .heading-title, #inventory > .row, #inventory > .mt-10, .flexslider, .flexslider-controls-container-sets, .nav-tabs, footer').forEach(el => el.remove())
-```
-
-This doesn't print quite as nicely as the first approach but it's probably good enough.
-
-Drag one of these to your bookmarks bar to install:
+I made this in bookmarklets for easy one-click execution.
+Drag one of these to the bookmarks bar to install:
 
 - <a href="javascript:void((function(){var s=document.createElement('style');s.textContent='.js-part{page-break-inside:avoid;}';document.head.appendChild(s);document.querySelectorAll('nav,.heading-title,#inventory>.row,#inventory>.mt-10,.flexslider,.flexslider-controls-container-sets,.nav-tabs,footer').forEach(function(e){e.remove()})})())">Rebrickable Print</a> — removes extra elements, keeps original layout
 - <a href="javascript:void((function(){var s=document.createElement('style');s.textContent='.js-part{page-break-inside:avoid;}';document.head.appendChild(s);var source=document.getElementById('parts_standard');var minifigs=document.getElementById('parts_minifig');var target=document.querySelector('#content>.container');target.innerHTML=source.innerHTML;target.append(minifigs);document.querySelectorAll('nav,.heading-title,#inventory>.row,#inventory>.mt-10,.flexslider,.flexslider-controls-container-sets,.nav-tabs,footer').forEach(function(e){e.remove()})})())">Rebrickable Print (clean)</a> — replaces page with just the parts list and removes extra elements (may cause some images to fail to load)
-
-Of course, if this is just a one-off print then it's probably easier to remove the elements by inspecting them with the browser devtools.
