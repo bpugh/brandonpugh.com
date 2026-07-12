@@ -44,4 +44,9 @@ document.querySelectorAll('nav, .heading-title, #inventory > .row, #inventory > 
 
 This doesn't print quite as nicely as the first approach but it's probably good enough.
 
+Drag one of these to your bookmarks bar to install:
+
+- <a href="javascript:void((function(){var s=document.createElement('style');s.textContent='.js-part{page-break-inside:avoid;}';document.head.appendChild(s);document.querySelectorAll('nav,.heading-title,#inventory>.row,#inventory>.mt-10,.flexslider,.flexslider-controls-container-sets,.nav-tabs,footer').forEach(function(e){e.remove()})})())">Rebrickable Print</a> — removes extra elements, keeps original layout
+- <a href="javascript:void((function(){var s=document.createElement('style');s.textContent='.js-part{page-break-inside:avoid;}';document.head.appendChild(s);var source=document.getElementById('parts_standard');var minifigs=document.getElementById('parts_minifig');var target=document.querySelector('#content>.container');target.innerHTML=source.innerHTML;target.append(minifigs);document.querySelectorAll('nav,.heading-title,#inventory>.row,#inventory>.mt-10,.flexslider,.flexslider-controls-container-sets,.nav-tabs,footer').forEach(function(e){e.remove()})})())">Rebrickable Print (clean)</a> — replaces page with just the parts list and removes extra elements (may cause some images to fail to load)
+
 Of course, if this is just a one-off print then it's probably easier to remove the elements by inspecting them with the browser devtools.
