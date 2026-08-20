@@ -5,10 +5,10 @@
     <meta http-equiv="refresh" content="0; url={{ .Params.redirect_url }}">
     <meta name="robots" content="noindex">
     <link rel="canonical" href="{{ .Params.redirect_url }}">
-    <title>Redirecting&hellip;</title>
+    <title>{{ .Title }}</title>
   </head>
   <body>
-    <p>Redirecting to <a href="{{ .Params.redirect_url }}">{{ .Params.redirect_url }}</a>&hellip;</p>
-    <script>window.location.replace({{ .Params.redirect_url | jsonify | safeJS }});</script>
+    <h1>{{ .Title }}</h1>
+    {{/*  <script>window.location.replace({{ .Params.redirect_url | jsonify | safeJS }});</script>  */}}
   </body>
 </html>

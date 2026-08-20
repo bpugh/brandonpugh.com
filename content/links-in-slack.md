@@ -1,5 +1,5 @@
 ---
-title: "Slack Links"
+title: "Links in Slack"
 layout: redirect
 redirect_url: "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
 ---
