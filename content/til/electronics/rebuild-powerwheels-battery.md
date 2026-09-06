@@ -1,9 +1,15 @@
 ---
 date: 2026-03-15
+lastmod: 2026-09-06
 title: Rebuilding a 6v Power Wheels battery
 draft: false
 tags: ["electronics", "toys"]
 ---
+
+> [!note] Update
+> After some more research, it turns out the board for the USB charger may not be too smart and if you let the charge of the battery pack drop too low it will no long charge it.
+> Fortunately, you can bypass the board and plug the battery into a typical [6V power wheels charge][charger].
+> After that, you should be able to charge it via USB again.
 
 We bought the "Fisher-Price Thomas & Friends Ride-On Train" for our toddler, and after some time, the battery stopped charging.
 It uses a Power Wheels 6V 2400 mAh NiMH battery (Model No. 1102822518 / Part No. 3900-8218).
@@ -29,7 +35,7 @@ The wires were just going to a small thermistor to measure the temperature of th
 
 ![alt text](/til/electronics/rebuild-powerwheels-battery-stripped-battery-pack.webp)
 
-After that, all I had to do was desolder the battery pack from the board, buy a replacement, solder it to the board, and tape the thermistor to the new pack.
+After that, all I had to do was desolder the battery pack from the board, [buy a replacement](https://www.amazon.com/dp/B082X1LKC5), solder it to the board, and tape the thermistor to the new pack.
 Then I sealed it all back up and I was good to go!
 
 I did come across a [service][service] that seems to do this for you, but it turned out to be fairly straightforward to do it myself.
@@ -37,3 +43,4 @@ I did come across a [service][service] that seems to do this for you, but it tur
 [seller]: https://www.impactbattery.com/power-wheels-nimh-6-volt-2400-mah-battery-1102822518-for-thomas-hhp26.html
 [reviews]: https://www.amazon.com/product-reviews/B09P9LWMZY/ref=acr_dp_hist_1?ie=UTF8&filterByStar=one_star&reviewerType=all_reviews#reviews-filter-bar
 [service]: https://batterygiantaz.com/products/3900-8218-6v-black-thomas-the-train-battery-new-style-rebuild-service
+[charger]: https://www.amazon.com/dp/B076DL84VP
